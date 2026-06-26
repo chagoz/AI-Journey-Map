@@ -859,5 +859,129 @@
       "#build-surface-constraints",
       "#builder-identity"
     ]
+  },
+  {
+    "beat_id": "beat_042",
+    "schema_version": "v2",
+    "entry_ref": "Entry 20",
+    "date": "2026-06-26",
+    "emotion": "calibrated confidence",
+    "pain_gain": "gain",
+    "activity_type": "reflecting",
+    "action": "Explained Claude's memory model to a colleague while acknowledging her own uncertainty.",
+    "verbatim": "And I guess it's a bit better now. I can't wait to hear from him in a couple of months about his process.",
+    "job_to_be_done": "Gauge understanding by testing it against someone else's confusion.",
+    "complexity": 2,
+    "subject": "self+other",
+    "open_question": "How much of what she explained about memory is accurate — and will it hold when he tests it?",
+    "phase": null,
+    "themes": [
+      "#tool-as-mirror",
+      "#limit-of-the-self",
+      "#observation-of-others"
+    ]
+  },
+  {
+    "beat_id": "beat_043",
+    "schema_version": "v2",
+    "entry_ref": "Entry 20",
+    "date": "2026-06-26",
+    "emotion": "retrospective clarity",
+    "pain_gain": "gain",
+    "activity_type": "reflecting",
+    "action": "Recognised that teaching another person surfaced a clearer map of her own AI learning curve.",
+    "verbatim": "I'm satisfied with this conversation because I've been learning how people learn. And it's also giving me perspective on my own learning curve.",
+    "job_to_be_done": "Use the act of teaching as a diagnostic of personal mastery.",
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#tool-as-mirror",
+      "#language-and-expression"
+    ]
+  },
+  {
+    "beat_id": "beat_044",
+    "schema_version": "v2",
+    "entry_ref": "Entry 21",
+    "date": "2026-06-26",
+    "emotion": "structural dissonance",
+    "pain_gain": "tension",
+    "activity_type": "reflecting",
+    "action": "Discovered mid-writing that the competitive intelligence skill's input structure was too loose and messy.",
+    "verbatim": "I was re-writing this article, and suddenly I realised that the way my skill is built is not optimal. I was like: what? Inside the same source file I have, live, both a mix of competitor analysis, context of my company, mixed information about rating, and then a styling document and brand voice. Way too messy.",
+    "job_to_be_done": "Surface structural problems in the AI setup before they compound further.",
+    "complexity": 3,
+    "subject": "self",
+    "open_question": "How much output quality has already been lost to poorly structured inputs?",
+    "phase": null,
+    "themes": [
+      "#limit-of-the-self",
+      "#builder-identity",
+      "#reframe"
+    ]
+  },
+  {
+    "beat_id": "beat_045",
+    "schema_version": "v2",
+    "entry_ref": "Entry 21",
+    "date": "2026-06-26",
+    "emotion": "methodical recalibration",
+    "pain_gain": "tension",
+    "activity_type": "building",
+    "action": "Asked the AI to score its own input quality dimension by dimension, then rebuilt the skill from findings.",
+    "verbatim": "I asked: I would like us to analyse the quality of the input I'm feeding you on different dimensions. Express it in numbers, one to five, five being perfection. So we can dialogue on how to improve it.",
+    "job_to_be_done": "Use the AI to audit the quality of information being fed to the AI.",
+    "complexity": 4,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#delegation",
+      "#builder-identity",
+      "#limit-of-the-self"
+    ]
+  },
+  {
+    "beat_id": "beat_046",
+    "schema_version": "v2",
+    "entry_ref": "Entry 21",
+    "date": "2026-06-26",
+    "emotion": "scope expansion",
+    "pain_gain": "breakthrough",
+    "activity_type": "reflecting",
+    "action": "Realised the competitive scan needed two distinct cadences — weekly signal noise versus monthly substance tracking.",
+    "verbatim": "I was watching stuff from a digest perspective on a weekly basis, just signalling communication. But what a company is actually building is a different lens. Probably a monthly scan — to get more information on whether they're progressing or regressing. The reality, not only their visible communication.",
+    "job_to_be_done": "Separate surface signals from structural competitor movement in the monitoring logic.",
+    "complexity": 3,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#reframe",
+      "#builder-identity"
+    ]
+  },
+  {
+    "beat_id": "beat_047",
+    "schema_version": "v2",
+    "entry_ref": "Entry 21",
+    "date": "2026-06-26",
+    "emotion": "compounding satisfaction",
+    "pain_gain": "gain",
+    "activity_type": "reflecting",
+    "action": "Observed the feedback loop working on a self-managed project at a pace impossible in formal product cycles.",
+    "verbatim": "The feedback loop I had such a hard time making work in product setups — where timelines are very long — I can see it working here. For this self-carried competitive intelligence digest, every week has provided a tremendous amount of discovery and improved impact.",
+    "job_to_be_done": "Confirm that solo AI-assisted iteration can outpace institutional product cycles.",
+    "complexity": 3,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#builder-identity",
+      "#delegation",
+      "#tool-as-mirror"
+    ]
   }
 ]
