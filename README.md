@@ -97,7 +97,7 @@ docs/
 ## Credits
 
 Methodology designed by [Charline Vergoz](https://www.linkedin.com/in/charlinevergoz/) x Claude (Anthropic).
-Original project: [ai-journey-map](https://github.com/chagoz/ai-journey-map)
+Template project: [ai-journey-map](https://github.com/chagoz/AI-Journey-Map-Template)
 Initiated: June 2026.
 
 *If you fork this and build something with it — share it. That's the point.*
