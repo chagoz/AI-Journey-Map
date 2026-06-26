@@ -1,104 +1,100 @@
+
 # AI Journey Map
 
-A methodology for documenting your own AI adoption as a structured field study.
+A longitudinal field study of one designer's evolving relationship with AI, built using the same tools it documents.
 
-**Fork this. Make it yours.**
+*The loop eating the loop.*
 
 ---
 
 ## What this is
 
-A research framework for tracking how your relationship with AI changes over time. Not a blog. Not a highlight reel. A longitudinal record — structured like user research, honest like a journal.
+A public research artifact. Not a productivity log. Not a portfolio. A structured record of how one person's relationship with an unfamiliar technology develops over time, captured in real time, processed with rigorous extraction rules, and made visible as data.
 
-The methodology treats you as both researcher and subject. Every voice note, every frustration, every reframe gets processed into a structured beat record. Over time, patterns emerge that you couldn't have planned for.
+The raw input is voice notes recorded across commutes, walks, and workdays. The output is a growing corpus of emotional beats, each one a moment where the narrator's prior model of the tool was breached, positively or negatively. The data accumulates. Patterns emerge. Phases will eventually be declared by the corpus itself, not by the narrator.
 
-The subject is the relationship between you and the technology. Not your productivity. Not your output. The relationship itself.
+The subject is the relationship between a person and a technology. Not the person's productivity. Not the technology's capabilities. The relationship itself.
+
+---
+
+## Why this exists
+
+The narrator is a designer with over fifteen years of cross-disciplinary practice spanning brand, UX, product, and AI-assisted workflows. She works at the intersection of systems thinking and creative practice, building things that did not exist before, then teaching others how to build them.
+
+When AI tools became genuinely useful in her daily work, she noticed something worth documenting: the adoption was not smooth or linear. It was full of breaches, moments where the technology did something she did not expect, revealed something about her own limits, or changed how she understood what she was doing. Those moments felt like data. So she started collecting them.
+
+The project is also an experiment in methodology: can AI be used to process and structure a corpus about AI adoption without introducing the very biases it is meant to document? The extraction rules and anti-inference constraints are the answer in progress.
 
 ---
 
 ## How it works
 
-1. Record voice notes whenever you have an AI interaction worth capturing — commute, desk, wherever
-2. The extraction skill runs daily against your voice note archive and produces structured beat records
-3. Records accumulate in `data/corpus.json` — one record per emotional beat, never rewritten
-4. At volume, patterns emerge: phase transitions, theme clusters, emotional arcs
+Voice notes are recorded in real time, unedited, unfiltered, in English by a French native speaker. They land in a Notion archive called Blabbing about AI.
 
-The loop: AI documents the process of using AI.
+A Claude extraction skill runs daily. It reads new entries, identifies emotional beats using a breach-based definition grounded in Bruner and Burke's narrative theory, and extracts structured records. Each record contains an emotion label, Russell Circumplex coordinates, a verbatim quote, a job to be done, activity type, complexity score, and theme tags.
 
----
+Records are appended to `data/corpus.json` on this repo, append-only, never rewritten. The corpus grows. At sufficient volume, phase boundaries will emerge from density patterns in the data.
 
-## What you get
-
-**A journey map** — chronological emotional curve across your adoption. Phases emerge from the data, not from narrative smoothing.
-
-**A galaxy view** — theme-based clustering. No fixed axis. Navigate by affinity.
-
-Both views read from the same corpus. One data layer, two renderings.
+Two frontend views are planned: a journey map (chronological emotional curve) and a galaxy view (theme-based clustering, no fixed axis).
 
 ---
 
-## Getting started
+## Methodology
 
-### Step 1 — Set up your voice note archive
-Any tool works: Notion, Apple Notes, voice memo apps with transcription. The extraction skill needs plain text transcripts with dates. Keep entries raw — do not edit after recording.
+This project draws on:
 
-### Step 2 — Read the extraction rules
-`docs/extraction-rules.md` is the complete prompt the extraction skill runs against each entry. Read it before your first extraction so you understand what gets captured and what gets filtered out.
+**Jerome Bruner and Kenneth Burke** for the definition of a beat: a unit of experience bounded by a breach of canonical expectation, with both a landscape of action and a landscape of consciousness.
 
-The core scope rule: **only emotions triggered by an AI interaction qualify.** Personal context in the same entry is background, never foreground.
+**Roger Silverstone's domestication theory** as the orienting framework for the theme taxonomy, describing how individuals appropriate, objectify, incorporate, and convert new technologies.
 
-### Step 3 — Run your first extraction
-Use Claude (or any LLM) with `docs/extraction-rules.md` as the system prompt. Feed it one voice note transcript. It outputs structured JSON beat records. Append them to `data/corpus.json`.
+**James Pennebaker's LIWC methodology** as the anchor for emotion labelling: linguistic markers in the verbatim as evidence of psychological state, not self-reported feeling.
 
-Replace the sample beats in `data/sample-corpus.json` with your own data when you're ready.
+**James Russell's Circumplex Model** as a validation layer: every emotion label is plotted on valence and arousal axes to catch labelling drift over time.
 
-### Step 4 — Set up a daily trigger
-Schedule a daily task (07:00 works well) to check your voice note archive for new entries and run the extraction. The lag between recording and processing is intentional — it creates distance between raw voice and structured interpretation.
-
-### Step 5 — Build the frontend
-Lovable + this corpus JSON = a working journey map. Frontend templates coming soon.
+Full methodology is documented in `docs/methodology.md`.
 
 ---
 
-## Sample data
+## A note on bias
 
-`data/sample-corpus.json` contains 5 anonymised beats showing the schema in use. Real emotional registers, correctly tagged, no personal information. Use them to understand the field definitions before running your own extraction.
+This is a declared field study, not a neutral record. The following are known variables, not hidden assumptions.
+
+The narrator has a prior positive disposition toward AI. Her professional identity is oriented around building and systems-thinking. She works in English as a second language, with French as her primary cognitive register, a tracked variable across the corpus.
+
+The extraction skill introduces a second layer of interpretation. The rules in `docs/extraction-rules.md` constrain this as tightly as possible. Judgment calls remain.
+
+This project does not claim objectivity. It claims honesty about its constraints.
 
 ---
 
-## File structure
+## Repository structure
 
 ```
 data/
-  corpus.json          — your live corpus (starts empty)
-  sample-corpus.json   — 5 anonymised example beats
+  corpus.json          — the live corpus, append-only
 
 docs/
-  extraction-rules.md  — full extraction skill: schema, scope rules, edge cases
-  taxonomy.md          — theme taxonomy with definitions
+  methodology.md       — intellectual foundations, theoretical anchors
+  extraction-rules.md  — mechanical rules governing extraction
   schema.md            — field-by-field reference
-  changelog.md         — your rule changes, versioned
+  taxonomy.md          — theme definitions, application rules, linguistic anchors
+  changelog.md         — all rule changes and schema versions, dated
 ```
 
 ---
 
-## The rules that matter most
+## Want to fork this?
 
-**One beat = one emotional moment.** A single voice note can produce multiple records if the emotional register shifts.
+The methodology is designed to be replicable. A template repo with an empty corpus, sample beats, and the full docs is available at:
 
-**Phases are outputs, never inputs.** The `phase` field stays null until corpus density earns it. Don't impose a narrative arc before the data shows one.
+[github.com/chagoz/AI-Journey-Map-Template](https://github.com/chagoz/AI-Journey-Map-Template)
 
-**Corpus is append-only.** Never rewrite existing records. What was extracted under the rules of a given day stays as extracted. Use `schema_version` to track rule changes over time.
-
-**The scope test.** Before tagging any emotion: was AI a necessary condition for this feeling? If no, exclude it.
+Fork it. Set up your own voice note archive. Run the extraction skill against your own entries. The methodology is yours to adapt.
 
 ---
 
-## Credits
+## About
 
-Methodology designed by [Charline Vergoz](https://www.linkedin.com/in/charlinevergoz/) x Claude (Anthropic).
-Template project: [ai-journey-map](https://github.com/chagoz/AI-Journey-Map-Template)
-Initiated: June 2026.
+Built by [Charline Vergoz](https://www.linkedin.com/in/charlinevergoz/) — designer, educator, systems thinker.
 
-*If you fork this and build something with it — share it. That's the point.*
-
+*Created June 2026. Corpus updated daily.*
