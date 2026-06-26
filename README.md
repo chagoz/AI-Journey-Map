@@ -1,4 +1,4 @@
-# AI Journey Map — Template
+# AI Journey Map
 
 A methodology for documenting your own AI adoption as a structured field study.
 
