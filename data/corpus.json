@@ -859,24 +859,5 @@
       "#build-surface-constraints",
       "#builder-identity"
     ]
-  },
-  {
-    "beat_id": "beat_042",
-    "schema_version": "v2",
-    "entry_ref": "Entry 19",
-    "date": "2026-06-26",
-    "emotion": "test beat",
-    "pain_gain": "gain",
-    "activity_type": "reflecting",
-    "action": "Testing the append script.",
-    "verbatim": "It works or it doesnt.",
-    "job_to_be_done": "Verify the pipeline end to end.",
-    "complexity": 1,
-    "subject": "self",
-    "open_question": null,
-    "phase": null,
-    "themes": [
-      "#builder-identity"
-    ]
   }
 ]
