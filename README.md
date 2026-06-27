@@ -1,4 +1,3 @@
-
 # AI Journey Map
 
 A longitudinal field study of one designer's evolving relationship with AI, built using the same tools it documents.
@@ -29,13 +28,45 @@ The project is also an experiment in methodology: can AI be used to process and 
 
 ## How it works
 
-Voice notes are recorded in real time, unedited, unfiltered, in English by a French native speaker. They land in a Notion archive called Blabbing about AI.
+Voice notes are recorded in real time, unedited, unfiltered, in English by a French native speaker. They land in a Notion archive called Blabbing about AI — a single page where transcripts are stored as recorded, untouched after the fact.
 
 A Claude extraction skill runs daily. It reads new entries, identifies emotional beats using a breach-based definition grounded in Bruner and Burke's narrative theory, and extracts structured records. Each record contains an emotion label, Russell Circumplex coordinates, a verbatim quote, a job to be done, activity type, complexity score, and theme tags.
 
 Records are appended to `data/corpus.json` on this repo, append-only, never rewritten. The corpus grows. At sufficient volume, phase boundaries will emerge from density patterns in the data.
 
 Two frontend views are planned: a journey map (chronological emotional curve) and a galaxy view (theme-based clustering, no fixed axis).
+
+---
+
+## The extraction skill
+
+The extraction skill is the automated engine of this project. It runs daily via a Cowork scheduled task and handles the full loop from raw voice note to committed corpus record, with no human involvement in the data processing.
+
+### What it does
+
+Reads new entries from the raw voice note archive in Notion — in this project called Blabbing about AI, a page where unedited transcripts are stored as they are recorded, untouched after the fact. Compares against the existing corpus to identify unprocessed entries. Applies the extraction rules and anti-inference constraints defined in `docs/extraction-rules.md`. Outputs structured beat records and commits them directly to `data/corpus.json` via the GitHub API. Logs each run to the project changelog in Notion.
+
+### Human vs Claude role
+
+This distinction is intentional and load-bearing for the study's integrity.
+
+The human records voice notes in real time, unedited, unfiltered, with no awareness of what will be extracted. The human does not categorise, tag, or interpret the entries. The human does not review beats before they are committed.
+
+Claude reads the rules, identifies beats, extracts all fields, assigns emotion coordinates, applies theme tags, and commits to GitHub. Claude does not receive editorial input from the human at any point in the extraction loop. The human's only interaction with the corpus is through the public-facing artifact.
+
+This separation is what makes the study methodologically honest. If the narrator also curates the data, the study becomes a highlight reel.
+
+### Setup requirements
+
+To run this skill yourself:
+
+1. Create a Cowork project in Claude Desktop and sync it to your forked GitHub repo — this gives the skill access to your docs and corpus
+2. Add your GitHub personal access token to the Cowork project instructions as `GITHUB_TOKEN` and your repo name as `GITHUB_REPO` — these are never written to any file
+3. Upload `docs/SKILL.md` to your Cowork project as a custom skill
+4. Create a scheduled task in Cowork pointing to the skill, daily at a time when your computer is awake and Claude Desktop is open
+5. Set up your raw voice note archive in Notion as a single page where transcripts land unedited. Connect the Notion connector to your Cowork project and make sure the skill can find the page by name. In this project that page is called Blabbing about AI — name yours whatever makes sense, but update the skill's Step 3 to point to the right page name
+
+The skill reads all rules from your GitHub docs folder on every run. When you update a rule, the next extraction automatically uses the new version.
 
 ---
 
@@ -79,6 +110,7 @@ docs/
   schema.md            — field-by-field reference
   taxonomy.md          — theme definitions, application rules, linguistic anchors
   changelog.md         — all rule changes and schema versions, dated
+  SKILL.md             — the extraction skill, ready to upload to Cowork
 ```
 
 ---
