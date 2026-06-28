@@ -983,5 +983,113 @@
       "#delegation",
       "#tool-as-mirror"
     ]
+  },
+  {
+    "beat_id": "beat_048",
+    "schema_version": "v3",
+    "entry_ref": "Entry 22",
+    "date": "2026-06-27",
+    "emotion": "exasperated disbelief",
+    "emotion_valence": -0.5,
+    "emotion_arousal": 0.4,
+    "pain_gain": "pain",
+    "activity_type": "building",
+    "action": "Built an extraction skill for Claude and discovered Claude had no understanding of its own architecture, causing hours of build deviation.",
+    "verbatim": "That Claude doesn't know about Claude. You're like: okay, the goal of this conversation is to build a skill for you — and you, Claude, don't even know yourself. You don't even realise you're Claude. So ridiculous.",
+    "job_to_be_done": "Build an automated daily extraction skill for the AI Journey Map.",
+    "complexity": 4,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool",
+      "#build-surface-constraints"
+    ]
+  },
+  {
+    "beat_id": "beat_049",
+    "schema_version": "v3",
+    "entry_ref": "Entry 22",
+    "date": "2026-06-27",
+    "emotion": "sober recognition of a communication gap",
+    "emotion_valence": -0.3,
+    "emotion_arousal": -0.1,
+    "pain_gain": "tension",
+    "activity_type": "reflecting",
+    "action": "Reflected on the build and identified that Claude lacked the vocabulary-translation filter that human developers provide.",
+    "verbatim": "I missed the vocabulary. I can express myself using the best language I know, but outside of my field it's difficult. When I exchange with developers, they have the filter to connect me — they know my position and they help me rephrase to get precision out of the conversation. That's been the case for fifteen years. With Claude, that filter isn't there in the same way.",
+    "job_to_be_done": "Understand what went wrong during the extraction skill build.",
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-self",
+      "#language-and-expression"
+    ]
+  },
+  {
+    "beat_id": "beat_050",
+    "schema_version": "v3",
+    "entry_ref": "Entry 22",
+    "date": "2026-06-27",
+    "emotion": "quiet ownership pride",
+    "emotion_valence": 0.7,
+    "emotion_arousal": 0.2,
+    "pain_gain": "breakthrough",
+    "activity_type": "building",
+    "action": "Completed the first automated extraction scheduled task, building from idea to deployment without developer support.",
+    "verbatim": "this will be my first scheduling task run through Cowork — built from idea to finish using nothing but my logic and my understanding of Claude. It's coming with a GitHub repo, which is very core to what I'm doing.",
+    "job_to_be_done": "Build and deploy an automated daily extraction pipeline for the AI Journey Map.",
+    "complexity": 5,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#builder-identity",
+      "#delegation"
+    ]
+  },
+  {
+    "beat_id": "beat_051",
+    "schema_version": "v3",
+    "entry_ref": "Entry 22",
+    "date": "2026-06-27",
+    "emotion": "mild surprised disappointment",
+    "emotion_valence": -0.3,
+    "emotion_arousal": 0.1,
+    "pain_gain": "tension",
+    "activity_type": "reflecting",
+    "action": "Ran a post-build retrospective with Claude and found its depth of reflection lower than expected.",
+    "verbatim": "at the end of the project, I did what I usually do with humans — I suggested a round of what went flawless and what went wrong, from both points of view. It was very interesting to see what Claude is able to get back from that. Not very high level of detail — I was surprised by that.",
+    "job_to_be_done": "Run a retrospective on the extraction skill build to identify what went well and what did not.",
+    "complexity": 2,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool"
+    ]
+  },
+  {
+    "beat_id": "beat_052",
+    "schema_version": "v3",
+    "entry_ref": "Entry 22",
+    "date": "2026-06-27",
+    "emotion": "quietly pleased identity discovery",
+    "emotion_valence": 0.5,
+    "emotion_arousal": 0.1,
+    "pain_gain": "gain",
+    "activity_type": "reflecting",
+    "action": "Reflected on the AI Journey Map project and recognised it as a possible entry point into the developer community.",
+    "verbatim": "maybe this is a new entry point into the developer community rather than just the designer one — where people share for the sake of good rather than personal branding everything they do. I realise I'm really happy about that part.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#builder-identity"
+    ]
   }
 ]
