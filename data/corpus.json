@@ -1185,5 +1185,260 @@
     "themes": [
       "#builder-identity"
     ]
+  },
+  {
+    "beat_id": "beat_053",
+    "schema_version": "v3",
+    "entry_ref": "Entry 23",
+    "date": "2026-07-07",
+    "emotion": "uneasy self-recognition",
+    "emotion_valence": -0.3,
+    "emotion_arousal": 0.3,
+    "pain_gain": "pain",
+    "activity_type": "reflecting",
+    "action": "Spent the first holiday days closing AI exploration projects, then decided to take a break.",
+    "verbatim": "And I realised my brain was still working in the background — how to solve this and that. Intensely talking to myself, intensely trying to problem solve. Even on holidays. And I decided that was not okay. I needed a break.",
+    "job_to_be_done": "Finish some AI exploration projects already initiated.",
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#dependency"
+    ]
+  },
+  {
+    "beat_id": "beat_054",
+    "schema_version": "v3",
+    "entry_ref": "Entry 23",
+    "date": "2026-07-07",
+    "emotion": "quiet encouragement",
+    "emotion_valence": 0.5,
+    "emotion_arousal": 0.1,
+    "pain_gain": "breakthrough",
+    "activity_type": "reflecting",
+    "action": "Thought about AI-related topics a couple of times while on a break from AI.",
+    "verbatim": "I'm back to thinking full time like a designer, instead of asking myself: wait, can AI do that? And I think that means something. The potentiality of knowing I will figure out the technical part — that's a shift in the way I'm addressing any new AI-related touchpoint. A good sign.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#builder-identity"
+    ]
+  },
+  {
+    "beat_id": "beat_055",
+    "schema_version": "v3",
+    "entry_ref": "Entry 23",
+    "date": "2026-07-07",
+    "emotion": "oddly validated contentment",
+    "emotion_valence": 0.5,
+    "emotion_arousal": 0.1,
+    "pain_gain": "gain",
+    "activity_type": "reflecting",
+    "action": "Noticed Claude updates addressing the friction she had felt between Chat and Cowork.",
+    "verbatim": "Also quite happy that the frustrations I had feel re-linked to the tool itself — not to me. That's another level of weird self-validation.",
+    "job_to_be_done": null,
+    "complexity": 2,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool",
+      "#reframe"
+    ]
+  },
+  {
+    "beat_id": "beat_056",
+    "schema_version": "v3",
+    "entry_ref": "Entry 24",
+    "date": "2026-08-03",
+    "emotion": "feeling quite scammed",
+    "emotion_valence": -0.6,
+    "emotion_arousal": 0.6,
+    "pain_gain": "tension",
+    "activity_type": "hitting a limit",
+    "action": "Returned to Claude after vacation, used gifted credits, and realised the payment model had shifted.",
+    "verbatim": "Good job, product. That's a very smooth, frictionless transition of their business model. But also — fuck you. I feel quite scammed.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self",
+    "open_question": "How will this shift play out at the corporate level?",
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool"
+    ]
+  },
+  {
+    "beat_id": "beat_057",
+    "schema_version": "v3",
+    "entry_ref": "Entry 24",
+    "date": "2026-08-03",
+    "emotion": "disillusioned distrust",
+    "emotion_valence": -0.6,
+    "emotion_arousal": 0.2,
+    "pain_gain": "pain",
+    "activity_type": "hitting a limit",
+    "action": "Checked settings, could not understand the model, and found an opt-in she had not selected.",
+    "verbatim": "Yeah. Good transition. Fantastic dark pattern. This is affecting my trust relationship with Claude — with Anthropic — as a company. And it feels bad.",
+    "job_to_be_done": "Understand what was going on with the new payment model.",
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool"
+    ]
+  },
+  {
+    "beat_id": "beat_058",
+    "schema_version": "v3",
+    "entry_ref": "Entry 25",
+    "date": "2026-08-06",
+    "emotion": "mild surprise",
+    "emotion_valence": -0.2,
+    "emotion_arousal": 0.2,
+    "pain_gain": "pain",
+    "activity_type": "hitting a limit",
+    "action": "Noticed tokens disappearing faster on her third day back.",
+    "verbatim": "Also a bit surprised by the token disappearing thing — I have the feeling the model is costing way more than before. But that's a side quest.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool"
+    ]
+  },
+  {
+    "beat_id": "beat_059",
+    "schema_version": "v3",
+    "entry_ref": "Entry 25",
+    "date": "2026-08-06",
+    "emotion": "satisfied but waning interest",
+    "emotion_valence": 0.1,
+    "emotion_arousal": -0.3,
+    "pain_gain": "tension",
+    "activity_type": "building",
+    "action": "Worked on the competitive intelligence system, layering use cases and structuring documentation before going agentic.",
+    "verbatim": "I'm satisfied with the output. Less satisfied with how clean the build process is. And I think that's a less interesting challenge for me.",
+    "job_to_be_done": "Get everything very clean before going agentic.",
+    "complexity": 3,
+    "subject": "self",
+    "open_question": "Am I overdoing the documentation before going agentic?",
+    "phase": null,
+    "themes": [
+      "#builder-identity"
+    ]
+  },
+  {
+    "beat_id": "beat_060",
+    "schema_version": "v3",
+    "entry_ref": "Entry 25",
+    "date": "2026-08-06",
+    "emotion": "pleasant surprise",
+    "emotion_valence": 0.6,
+    "emotion_arousal": 0.3,
+    "pain_gain": "gain",
+    "activity_type": "discovering a capability",
+    "action": "Asked Claude how to do something and received a styled visual instead of text.",
+    "verbatim": "I asked how to do something, considered I was a bit lost, and instead of a text output I got a nice visual with styling.",
+    "job_to_be_done": "Find out how to do something while feeling a bit lost.",
+    "complexity": 1,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#build-surface-constraints"
+    ]
+  },
+  {
+    "beat_id": "beat_061",
+    "schema_version": "v3",
+    "entry_ref": "Entry 25",
+    "date": "2026-08-06",
+    "emotion": "tentative curiosity",
+    "emotion_valence": 0.4,
+    "emotion_arousal": 0.2,
+    "pain_gain": "gain",
+    "activity_type": "reflecting",
+    "action": "Reflected on how her habit of explaining context first shapes how she structures AI requests.",
+    "verbatim": "And I'm questioning whether I might have — by personality, by how I express myself — an unfair competitive advantage in the way I structure my requests when it comes to delegating to AI.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self",
+    "open_question": "Is her way of expressing herself an unfair advantage when delegating to AI?",
+    "phase": null,
+    "themes": [
+      "#bilingual-cognition",
+      "#language-and-expression"
+    ]
+  },
+  {
+    "beat_id": "beat_062",
+    "schema_version": "v3",
+    "entry_ref": "Entry 26",
+    "date": "2026-08-08",
+    "emotion": "conflicted annoyance",
+    "emotion_valence": -0.3,
+    "emotion_arousal": 0.4,
+    "pain_gain": "tension",
+    "activity_type": "building",
+    "action": "Exported key Notion files into a Cowork project folder as context for analytics and SEO tasks.",
+    "verbatim": "It's dramatically annoying though — because I believe that working in companies with transparency in how you structure your core dataset is key.",
+    "job_to_be_done": "Move analytics, SEO, and data review tasks to the enterprise setup.",
+    "complexity": 3,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-tool"
+    ]
+  },
+  {
+    "beat_id": "beat_063",
+    "schema_version": "v3",
+    "entry_ref": "Entry 26",
+    "date": "2026-08-08",
+    "emotion": "humbled realisation",
+    "emotion_valence": -0.1,
+    "emotion_arousal": 0.1,
+    "pain_gain": "tension",
+    "activity_type": "hitting a limit",
+    "action": "Fed an SEO task with better context and found she could not review the outputs further.",
+    "verbatim": "Today's takeaway: when better fed, AI is way more powerful than me on some side tasks. And today's outputs — I'm not able to comment them much further.",
+    "job_to_be_done": "Get more relevant SEO recommendations by feeding better context.",
+    "complexity": 3,
+    "subject": "self",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#limit-of-the-self",
+      "#reframe"
+    ]
+  },
+  {
+    "beat_id": "beat_064",
+    "schema_version": "v3",
+    "entry_ref": "Entry 26",
+    "date": "2026-08-08",
+    "emotion": "mild sadness",
+    "emotion_valence": -0.4,
+    "emotion_arousal": -0.3,
+    "pain_gain": "tension",
+    "activity_type": "reflecting",
+    "action": "Reflected on her role versus the tool after a day of changing her process.",
+    "verbatim": "I think it's just a phase — that's how knowledge consolidates. But it's a bit sad. I'm okay to see parts of me evolving. I'm not okay to give up what I like most about my job.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self",
+    "open_question": "Can parts of her evolve without giving up what she likes most about her job?",
+    "phase": null,
+    "themes": [
+      "#builder-identity"
+    ]
   }
 ]
