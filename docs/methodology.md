@@ -98,6 +98,18 @@ The emotion label is free text. It is not constrained to any fixed taxonomy. Thi
 
 ---
 
+## The raw data layer
+
+Each voice note is dictated in a chat with a language model, which saves it as one row in a Notion database. The row's content is the transcript. Rows are never edited after creation: a later addition becomes a separate addendum row, linked to its parent entry.
+
+The transcript is saved exactly as dictated, with one mechanical exception: standalone hesitation sounds ("uh", "um", "euh", "hmm") are removed. Everything else stays, including hedges, false starts, repetitions, self-corrections and non-standard English, because the extraction rules treat them as data. The model reads the saved row back and confirms it matches.
+
+The same chat may reflect back on what was said after saving. That reflection is never stored and is not part of the study. Extraction reads the database rows only.
+
+Until September 2026, all entries lived on a single page that was rewritten each time a new entry was added. They were then migrated to the database, one row per entry, by a script that compared every block character by character. An independent audit, written separately, confirmed all 40 entries matched.
+
+---
+
 ## Declared limitations
 
 This study cannot:
@@ -111,6 +123,10 @@ This study cannot:
 **Eliminate extraction model bias.** The extraction skill is a language model applying rules to language. Its judgment calls are constrained but not eliminated. The rules exist to minimize drift, not to make the process mechanical.
 
 **Claim phase boundaries before sufficient corpus density exists.** The `phase` field stays null until enough records exist for density patterns to earn a boundary. Narrative smoothing — declaring a phase because it feels like one — is explicitly prohibited.
+
+**Observe hesitation.** Hesitation sounds are removed before the transcript is saved, and were already absent from earlier entries. Pauses and disfluencies can signal uncertainty or cognitive load; this study cannot see them.
+
+**Guarantee the fidelity of entries recorded before September 2026.** While entries lived on a single, repeatedly rewritten page, their wording may have shifted. An audit found that some quotes extracted earlier no longer match the current text exactly, and that one recording exists as two different transcriptions. The migration fixed the text as it stood on 24 September 2026; changes before that date cannot be traced.
 
 ---
 
@@ -134,4 +150,4 @@ Turner, V. (1982). *From Ritual to Theater.* Performing Arts Journal Publication
 
 ---
 
-*Created by Charline x Claude — June 26, 2026 — v1.0*
+*Created by Charline x Claude — June 26, 2026 — v1.0 — Updated to v1.1: September 25, 2026*
