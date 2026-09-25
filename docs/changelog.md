@@ -1,19 +1,40 @@
-## 2026-06-28
-2026-06-28 — Retroactive enrichment: emotion_valence and emotion_arousal added to beat_042 through beat_047. Derived from existing emotion labels and verbatims using Russell Circumplex Model. No other fields modified. Schema enrichment only — no extracted values changed.
-2026-06-28 â Retroactive enrichment: emotion_valence and emotion_arousal added to beat_001 through beat_041. Derived from existing emotion labels and verbatims using Russell Circumplex Model. No other fields modified. Schema enrichment only â no extracted values changed.
-2026-06-28 Ã¢ÂÂ Retroactive enrichment: emotion_valence and emotion_arousal added to beat_001 through beat_041. Derived from existing emotion labels and verbatims using Russell Circumplex Model. No other fields modified. Schema enrichment only Ã¢ÂÂ no extracted values changed.
-
 # Changelog
 
-*AI Journey Map ÃÂ¢ÃÂÃÂ all rule changes, schema versions, and taxonomy updates. Most recent first.*
+*AI Journey Map — all rule changes, schema versions, and taxonomy updates. Most recent first.*
+
+---
+
+## 2026-09-25
+
+**Encoding repair (corpus and changelog)**
+- The 2026-06-28 retroactive enrichment was committed three times. Each commit re-encoded the whole file, so every non-ASCII character in 42 beats and in this changelog ended up triple-encoded.
+- Repaired by reversing exactly three encoding layers. Every repaired record was verified field by field against the last clean version of the corpus (commit 0547403). No values changed.
+- The duplicated 2026-06-28 log line was removed, and the 2026-06-28 entry was moved below the title.
+
+**Methodology v1.1**
+- Added "The raw data layer" section: Notion database as source, verbatim rule with mechanical removal of hesitation sounds, debrief not stored, migration and independent audit.
+- Added two declared limitations: hesitation cannot be observed; fidelity of entries recorded before September 2026 cannot be guaranteed.
+
+**Extraction skill v4** (maintained in the template repository)
+- Reads entries from the Voice notes database instead of a single page.
+- Runs on chat trigger only. Configuration read from project instructions.
+- Entry and beat numbers compared as numbers; corpus decoded explicitly as UTF-8.
+- The personal repository's SKILL.md is now a pointer to the template.
+
+---
+
+## 2026-06-28
+
+2026-06-28 — Retroactive enrichment: emotion_valence and emotion_arousal added to beat_042 through beat_047. Derived from existing emotion labels and verbatims using Russell Circumplex Model. No other fields modified. Schema enrichment only — no extracted values changed.
+2026-06-28 — Retroactive enrichment: emotion_valence and emotion_arousal added to beat_001 through beat_041. Derived from existing emotion labels and verbatims using Russell Circumplex Model. No other fields modified. Schema enrichment only — no extracted values changed.
 
 ---
 
 ## 2026-06-26
 
 **Schema v3**
-- Added `emotion_valence` field ÃÂ¢ÃÂÃÂ float -1.0 to +1.0, Russell Circumplex valence axis
-- Added `emotion_arousal` field ÃÂ¢ÃÂÃÂ float -1.0 to +1.0, Russell Circumplex arousal axis
+- Added `emotion_valence` field — float -1.0 to +1.0, Russell Circumplex valence axis
+- Added `emotion_arousal` field — float -1.0 to +1.0, Russell Circumplex arousal axis
 - Updated beat definition from emotion-shift based to breach-based (Bruner/Burke)
 - Tightened all field descriptions to reflect anti-inference rules
 - Total fields: 17
@@ -27,9 +48,9 @@
 - Added pointer to methodology.md at document opening
 - Schema version updated to v3 throughout
 
-**Methodology v1 ÃÂ¢ÃÂÃÂ new document**
+**Methodology v1 — new document**
 - Reflexivity statement: declared biases, bilingual variable, prior disposition
-- Beat definition grounded in Bruner (1986, 1991) and Burke (1945) ÃÂ¢ÃÂÃÂ canonicity and breach, dual landscape
+- Beat definition grounded in Bruner (1986, 1991) and Burke (1945) — canonicity and breach, dual landscape
 - Emotion labelling hybrid protocol: free labels anchored by verbatim, Russell grid as validation layer
 - Rejection of fixed taxonomies: Ekman (too coarse), Plutchik (wrong domain), LIWC (wrong granularity)
 - Pennebaker borrowed as principle not as categories
@@ -63,8 +84,8 @@
 ## 2026-06-25
 
 **Schema v2**
-- Added `beat_id` field ÃÂ¢ÃÂÃÂ unique identifier, auto-incremented, format beat_001
-- Added `schema_version` field ÃÂ¢ÃÂÃÂ tracks which extraction rules version produced each record
+- Added `beat_id` field — unique identifier, auto-incremented, format beat_001
+- Added `schema_version` field — tracks which extraction rules version produced each record
 - Decision: corpus is append-only. No reprocessing of existing records.
 
 **Extraction rules v1**
@@ -75,7 +96,7 @@
 - 5 emergent themes defined: `#builder-identity` `#ai-policy-friction` `#mobile-and-mobility` `#bilingual-cognition` `#build-surface-constraints`
 - `#build-surface-constraints` added after Entry 07 extraction test
 
-**Corpus v1 ÃÂ¢ÃÂÃÂ first extraction**
+**Corpus v1 — first extraction**
 - 41 beats extracted across 19 entries (May 30 to June 25, 2026)
 - All records tagged schema_version v2
 - Retroactive extraction: all entries processed manually in one pass
@@ -91,4 +112,4 @@
 
 ---
 
-*Created by Charline x Claude ÃÂ¢ÃÂÃÂ June 25, 2026 ÃÂ¢ÃÂÃÂ Updated June 26, 2026*
+*Created by Charline x Claude — June 25, 2026 — Updated June 26, 2026*
