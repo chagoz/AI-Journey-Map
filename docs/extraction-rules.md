@@ -1,4 +1,4 @@
-# Extraction Rules — v3
+# Extraction Rules — v4
 
 *Last updated: June 26, 2026*
 
@@ -218,6 +218,10 @@ Always null. Output of corpus-level analysis only. Never populated during extrac
 - `#delegation` applies only to conscious, successful handoff — not failed attempts
 - `#limit-of-the-tool` and `#limit-of-the-self` often co-occur but are distinct — apply both only when both are genuinely present
 - `#tool-as-mirror` requires the reflection to come through the AI interaction, not merely alongside it
+- Apply a tag only when its definition is clearly met in the entry. One tag is the normal case. Add a second or third only when each is independently anchored in the entry text. Never add a tag to fill a slot.
+
+### taxonomy_version
+The version stated at the top of `docs/taxonomy.md` at the time of tagging. Format: v3.
 
 ---
 
@@ -343,6 +347,33 @@ Before outputting, confirm no entry_ref in the new beats matches an already-proc
 
 ---
 
+## Versioned re-tag procedure
+
+**When:** only after a taxonomy version change, and only when the author authorises a pass. Never during regular extraction.
+
+**Scope:** `themes` and `taxonomy_version` for every beat, and `verbatim` only where it fails the exact-match check. Every other field stays byte-identical, including `emotion`: a restored verbatim is the same passage, so the label derived from it stands.
+
+**Before starting:**
+- Archive the current corpus as `data/archive/corpus-taxonomy-[previous version].json`.
+- Output the Rule E self-assessment declaration.
+
+**For each beat:**
+1. Read the full transcript of its entry, and only that entry (Rule A). Where two transcriptions of one recording exist, use the one matching `entry_ref`.
+2. Re-assign `themes` from the current taxonomy, following the themes rules. For each tag, record the exact entry text that anchors it.
+3. Check the `verbatim`: is it an exact substring of the transcript? If not, locate the passage it was taken from, meaning the closest match in wording and position, and replace it with that passage's exact transcript text, same span. Never select a different passage. If no passage matches clearly, keep the stored verbatim and flag it.
+
+**Log:** write `data/retag-log-[version].json`, with one record per beat: `beat_id`, `entry_ref`, `themes_before`, `themes_after`, `anchors` (tag to exact text), `verbatim_before`, `verbatim_after` (null if unchanged), `flags`.
+
+**Integrity checks before commit** (all must pass):
+- Every field outside scope is identical to the archive.
+- Every verbatim is an exact substring of its transcript, or flagged.
+- Every tag exists in the current taxonomy, with 1 to 3 per beat.
+- Beat count is unchanged.
+
+**Commit:** to a branch, never to `main`. The author checks the integrity results, then merges.
+
+---
+
 ## Voice and language rules
 
 Do not correct the narrator's English. Fragmented syntax and self-corrections are features, not errors.
@@ -355,4 +386,4 @@ Hedging language is data. *"I think", "maybe", "I'm not sure"* signal uncertaint
 
 ---
 
-*Created by Charline x Claude — June 25, 2026 — Updated to v3: June 26, 2026*
+*Created by Charline x Claude — June 25, 2026 — Updated to v3: June 26, 2026 · Updated to v4: September 25, 2026*
