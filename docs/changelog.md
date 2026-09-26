@@ -4,6 +4,17 @@
 
 ---
 
+## 2026-09-26
+
+**Versioned re-tag pass (taxonomy v2 to v3)**
+- All 52 beats (Entries 01 to 22) re-tagged against taxonomy v3, entry by entry, following the re-tag procedure in extraction-rules.md v4. Every tag is backed by an exact anchoring quote, recorded in `data/retag-log-v3.json`.
+- Tag assignments fell from 147 to 89. 21 beats carry one tag, 25 carry two, 6 carry three. The eight v3 tags account for 35 of the 89 assignments.
+- 20 drifted verbatims restored to the exact transcript text of the same passage. 3 flagged and kept unchanged (beat_002, beat_024, beat_035); the flags live in the re-tag log.
+- beat_035 (Entry 17): its verbatim matches text in Entry 13. The original extraction broke entry isolation (Rule A). The beat is kept and flagged, not modified or removed.
+- Prior corpus archived as `data/archive/corpus-taxonomy-v2.json`. Integrity checks passed in the pass itself and again in an independent verification after merge.
+
+---
+
 ## 2026-09-25
 
 **Encoding repair (corpus and changelog)**
