@@ -1,6 +1,6 @@
-# Theme Taxonomy — v2
+# Theme Taxonomy — v3
 
-*Last updated: June 26, 2026*
+*Last updated: September 25, 2026*
 
 This document defines the approved theme tags for the AI Journey Map corpus. It is read by the extraction skill alongside each tagging decision. Each tag definition is designed to be fetched as context at the moment of application.
 
@@ -25,14 +25,16 @@ The taxonomy does not enforce these phases as rigid categories. It uses them as 
 
 The taxonomy was built inductively from the first 19 entries of the corpus. It is designed to remain open. New tags emerge from the data, not from the framework.
 
+Version 3 extends it from a full scan of 40 entries. Candidate text was surfaced by the extraction model, reviewed for internal coherence and external distinctness, and named by the author. A new tag must appear in at least 3 entries. Tags stay flat: parent themes will be derived later from real tag co-occurrence across the corpus, and will live in this document only, as a lookup.
+
 **Loose mapping of tags to domestication phases:**
 
 | Phase | Associated tags |
 |-------|----------------|
-| Appropriation — taking ownership | `#delegation` `#builder-identity` `#tool-as-mirror` |
-| Objectification — giving it a place | `#build-surface-constraints` `#limit-of-the-tool` |
-| Incorporation — integrating into routines | `#dependency` `#limit-of-the-self` `#mobile-and-mobility` |
-| Conversion — signalling to the outside world | `#observation-of-others` `#ai-policy-friction` |
+| Appropriation — taking ownership | `#delegation` `#builder-identity` `#tool-as-mirror` `#trust-in-the-tool` `#how-i-learn` |
+| Objectification — giving it a place | `#build-surface-constraints` `#limit-of-the-tool` `#governing-agents` `#cost-of-access` |
+| Incorporation — integrating into routines | `#dependency` `#limit-of-the-self` `#mobile-and-mobility` `#cost-of-speed` `#interest-in-the-work` |
+| Conversion — signalling to the outside world | `#observation-of-others` `#ai-policy-friction` `#value-visibility` `#collaborative-transparency` |
 | Cross-phase | `#reframe` `#language-and-expression` `#bilingual-cognition` |
 
 ---
@@ -163,11 +165,11 @@ These tags appeared in the first corpus pass. They may grow into core themes, re
 
 ### #builder-identity
 
-**Definition:** a moment where the narrator questions, discovers, or expands what it means to build and ship as a designer using AI — where professional identity is in motion.
+**Definition:** a moment where the narrator questions, discovers, or expands what it means to build and ship as a designer using AI — where professional identity is in motion, or where she questions which part of the work is hers and which belongs to the tool.
 
 **Application rule:** the identity dimension must be explicit. The narrator must be commenting on what she is, not just what she is doing.
 
-**Linguistic anchor:** look for language about self-definition. "I am a builder," "this is what I do," "I didn't know I could," "what does this make me," "roles don't matter anymore."
+**Linguistic anchor:** look for language about self-definition. "I am a builder," "this is what I do," "I didn't know I could," "what does this make me," "roles don't matter anymore," "what's mine," "where do I sit versus it," "an AI operator."
 
 **Do:** apply when the narrator explicitly comments on her identity as a builder or designer in relation to what AI enables.
 
@@ -177,11 +179,11 @@ These tags appeared in the first corpus pass. They may grow into core themes, re
 
 ### #ai-policy-friction
 
-**Definition:** a moment where institutional rules, permissions, or enterprise constraints shape or block AI adoption — the gap between what the narrator can do personally and what the organisation allows.
+**Definition:** a moment where institutional rules, permissions, or enterprise constraints shape or block AI adoption — the gap between what the narrator can do personally and what the organisation allows, including top-down organisational pushes for AI adoption, such as productivity targets or mandated tools.
 
 **Application rule:** the friction must be institutional — rules, policies, IT constraints, enterprise configurations. Personal technical limitations belong to `#limit-of-the-self` or `#limit-of-the-tool`.
 
-**Linguistic anchor:** look for language about organisational constraint. "The company," "I'm not allowed," "enterprise version," "the policy says," "I had to ask IT."
+**Linguistic anchor:** look for language about organisational constraint. "The company," "I'm not allowed," "enterprise version," "the policy says," "I had to ask IT," "the CEO decided," "everyone should," "pushed via Slack."
 
 **Do:** apply when the constraint comes from an institutional layer above the narrator's own capability.
 
@@ -231,11 +233,124 @@ These tags appeared in the first corpus pass. They may grow into core themes, re
 
 ---
 
+### #value-visibility
+
+**Definition:** a moment where the narrator considers how the value of her AI-enabled work is seen, recognised or understood by others: colleagues, the market, or the design profession.
+
+**Application rule:** the audience must be explicit. The narrator is thinking about how her work or skills land with someone else, not about what the work is.
+
+**Linguistic anchor:** "legitimate," "express them in stakeholder meetings," "my profile doesn't match the boxes," "package someone like me," "the role of design."
+
+**Do:** apply when recognition, legibility or market fit of her AI practice is the subject.
+
+**Do not:** apply when she reflects on her identity without an audience in view. That belongs to `#builder-identity`.
+
+---
+
+### #trust-in-the-tool
+
+**Definition:** a moment where the narrator describes trust, or its absence, as a feeling toward the AI tool itself: being able to rely on it, expecting it to behave, feeling let down by it.
+
+**Application rule:** trust must be expressed as a relational feeling. Checking whether an output is correct belongs to `#governing-agents`. Trust in the company behind the tool belongs to `#cost-of-access`.
+
+**Linguistic anchor:** "trust," "in control," "I projected an expectation," "blindly trust the system," "weird to say that about a machine."
+
+**Do:** apply when the narrator describes her felt relationship of reliance or disappointment with the tool.
+
+**Do not:** apply to verification routines, audits or output errors without a relational dimension.
+
+---
+
+### #cost-of-speed
+
+**Definition:** a moment where the pace AI enables takes a felt toll on the narrator's energy, time boundaries or personal space, or where she questions whether speed is a gain at all.
+
+**Application rule:** the cost must be personal and experienced: exhaustion, overwork, lost space, speed that feels empty. Noticing reliance on the tool belongs to `#dependency`.
+
+**Linguistic anchor:** "exhausted," "draining," "ate me alive," "not a healthy way of working," "I don't want to go faster," "is AI really accelerating anything."
+
+**Do:** apply when speed, intensity or volume of AI-enabled work has a stated effect on her.
+
+**Do not:** apply to money, limits or pricing. That belongs to `#cost-of-access`.
+
+---
+
+### #interest-in-the-work
+
+**Definition:** a moment where the narrator reflects on her interest, creativity or sense of meaning in the work itself, as AI changes which tasks she does.
+
+**Application rule:** the reflection must be about engagement with the work: what excites her, what bores her, what feels creative or empty.
+
+**Linguistic anchor:** "boring," "not really creative," "losing interest," "positive juice," "what motivates me most," "the doing of it isn't where my value is."
+
+**Do:** apply when AI's effect on what feels interesting or meaningful to her is explicit.
+
+**Do not:** apply when she describes a task's efficiency without saying how it feels to do it.
+
+---
+
+### #cost-of-access
+
+**Definition:** a moment where pricing, usage limits, licences or the vendor's business model shape the narrator's use of AI or her trust in the company providing it.
+
+**Application rule:** the constraint or concern must come from the commercial layer: plans, credits, limits, upgrades, opt-ins. Institutional permissions belong to `#ai-policy-friction`.
+
+**Linguistic anchor:** "limit," "credits," "Pro," "Max," "pay that much to do that little," "tricked," "dark pattern," "stickiness."
+
+**Do:** apply when cost or commercial design is the subject, including trust in the vendor as a company.
+
+**Do not:** apply to capability limits of the model. That belongs to `#limit-of-the-tool`.
+
+---
+
+### #how-i-learn
+
+**Definition:** a moment where the narrator reflects on the way she learns, with or through AI: the method, the pace, the depth, or the practice of reflecting itself.
+
+**Application rule:** the subject must be her own learning process, not a gap in her knowledge. Noticing what she does not know belongs to `#limit-of-the-self`. Others' learning belongs to `#observation-of-others`.
+
+**Linguistic anchor:** "learn about the way I learn," "learning by experiencing," "debate with Claude," "good enough, not deep," "this daily reflection has been part of my improvement."
+
+**Do:** apply when she describes how she acquires understanding.
+
+**Do not:** apply to a single fact learned without reflection on the process.
+
+---
+
+### #collaborative-transparency
+
+**Definition:** a moment where the narrator considers how AI work is shared, made visible or understood between people, or how AI may isolate people working on the same problem.
+
+**Application rule:** the collaborative dimension must be explicit: others need to see, comment on, share or start from the same context.
+
+**Linguistic anchor:** "transparency," "collaborative setting," "how can people comment on AI output," "keep all my skills to myself," "isolate us," "no standard."
+
+**Do:** apply when the visibility or shareability of AI work between people is the subject.
+
+**Do not:** apply to solo workflows with no mention of others.
+
+---
+
+### #governing-agents
+
+**Definition:** a moment where the narrator writes rules for, audits, verifies or corrects AI agents, or notices drift from their mission.
+
+**Application rule:** the act of governance must be present: defining rules, checking outputs against them, catching deviation. A conscious handoff of a task belongs to `#delegation`.
+
+**Linguistic anchor:** "the rules of our relationship," "audit itself," "drifting from its mission," "check against the rules," "not trusting the output," "get stuff very clean before going agentic."
+
+**Do:** apply when the narrator is structuring or policing agent behaviour.
+
+**Do not:** apply when she simply notes that the tool made a mistake. That belongs to `#limit-of-the-tool`.
+
+---
+
 ## Changelog
 
 `2026-06-25` — Taxonomy v1 created. 8 core themes, 5 emergent themes defined.
 `2026-06-26` — Taxonomy updated to v2. Full definitions added to each tag. Theoretical anchor added (Silverstone domestication theory). Application rules, linguistic anchors, and do/do not pairs added per tag. Emergent theme graduation threshold defined at 15% of total beats.
+`2026-09-25` · Taxonomy updated to v3. Eight tags added from a full scan of 40 entries: `#value-visibility`, `#trust-in-the-tool`, `#cost-of-speed`, `#interest-in-the-work`, `#cost-of-access`, `#how-i-learn`, `#collaborative-transparency`, `#governing-agents`. Definitions of `#builder-identity` and `#ai-policy-friction` broadened. Recurrence threshold of 3 entries per new tag. Tags stay flat; parent themes to be derived from co-occurrence after the re-tag pass.
 
 ---
 
-*Created by Charline x Claude — June 25, 2026 — Updated to v2: June 26, 2026*
+*Created by Charline x Claude — June 25, 2026 — Updated to v2: June 26, 2026 · Updated to v3: September 25, 2026*
