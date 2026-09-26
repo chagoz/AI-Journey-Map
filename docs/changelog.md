@@ -21,6 +21,15 @@
 - Entry and beat numbers compared as numbers; corpus decoded explicitly as UTF-8.
 - The personal repository's SKILL.md is now a pointer to the template.
 
+**Taxonomy v3**
+- Eight tags added from a full scan of 40 entries. Definitions of `#builder-identity` and `#ai-policy-friction` broadened. Recurrence threshold of 3 entries per new tag. Tags stay flat.
+
+**Schema v4 and extraction rules v4**
+- New field `taxonomy_version`. Existing records keep their `schema_version`.
+- Themes rule: one tag is the normal case; never add a tag to fill a slot.
+- Versioned re-tag procedure added: tag-only, reads transcripts, restores drifted verbatims without reselecting, logs every change, commits to a branch.
+- New beats carry `schema_version` v4 and `taxonomy_version` v3.
+
 ---
 
 ## 2026-06-28
