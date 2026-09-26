@@ -2,21 +2,22 @@
   {
     "beat_id": "beat_001",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 01",
     "date": "2026-05-30",
     "emotion": "curiosity shading into satisfaction",
     "pain_gain": "gain",
     "activity_type": "building",
     "action": "Built named agents with distinct specialties to create a personal feedback and growth loop.",
-    "verbatim": "I didn't take her or he or whatever pronoun for Signal as a \"you tell me what to do.\"",
+    "verbatim": "I didn't take her or him or whatever pronoun for Signal as a — like, you tell me what to do.",
     "job_to_be_done": "Create an external feedback mechanism the work environment does not provide.",
     "complexity": 2,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#delegation"
+      "#tool-as-mirror",
+      "#delegation",
+      "#builder-identity"
     ],
     "emotion_valence": 0.5,
     "emotion_arousal": 0.4
@@ -24,7 +25,6 @@
   {
     "beat_id": "beat_002",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 01",
     "date": "2026-05-30",
     "emotion": "quiet pride",
@@ -48,21 +48,22 @@
   {
     "beat_id": "beat_003",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 01",
     "date": "2026-05-30",
     "emotion": "tentative excitement",
     "pain_gain": "gain",
     "activity_type": "building",
     "action": "Deployed a writing agent to develop a publishing practice and push ideas into the world.",
-    "verbatim": "I just need to say to someone: can we have this conversation? And basically, refining my conversation with myself, leveraging the mirroring effect of the agent.",
+    "verbatim": "I just need to say to someone: can we have this conversation? And basically refining my conversation with myself, leveraging the mirroring effect of the agent.",
     "job_to_be_done": "Overcome writing resistance and build a consistent publishing practice in a second language.",
     "complexity": 2,
     "subject": "self",
     "open_question": "Will this practice hold over time — or is the energy of starting enough to sustain it?",
     "phase": null,
     "themes": [
-      "#tool-as-mirror"
+      "#tool-as-mirror",
+      "#language-and-expression",
+      "#delegation"
     ],
     "emotion_valence": 0.5,
     "emotion_arousal": 0.6
@@ -70,7 +71,6 @@
   {
     "beat_id": "beat_004",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 02",
     "date": "2026-05-30",
     "emotion": "growing confidence",
@@ -84,7 +84,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#how-i-learn"
+      "#delegation",
+      "#limit-of-the-self",
+      "#builder-identity"
     ],
     "emotion_valence": 0.65,
     "emotion_arousal": 0.4
@@ -92,7 +94,6 @@
   {
     "beat_id": "beat_005",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 02",
     "date": "2026-05-30",
     "emotion": "deflation",
@@ -107,6 +108,7 @@
     "phase": null,
     "themes": [
       "#limit-of-the-self",
+      "#limit-of-the-tool",
       "#reframe"
     ],
     "emotion_valence": -0.55,
@@ -115,14 +117,13 @@
   {
     "beat_id": "beat_006",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 03",
     "date": "2026-05-30",
     "emotion": "wry acceptance",
     "pain_gain": "tension",
     "activity_type": "hitting a limit",
     "action": "Discovered critical gaps in SEO infrastructure — unindexed pages, missing LLM file, outdated sitemap — that no AI tool had flagged.",
-    "verbatim": "no tool could tell me that, because the tool could only help me identify what I already asked, or what I already knew.",
+    "verbatim": "No tool could tell me that, because the tool could only help me identify what I already asked, or what I already knew.",
     "job_to_be_done": "Understand the blind spots AI creates when used without full domain context.",
     "complexity": 3,
     "subject": "self",
@@ -130,7 +131,8 @@
     "phase": null,
     "themes": [
       "#limit-of-the-tool",
-      "#limit-of-the-self"
+      "#limit-of-the-self",
+      "#reframe"
     ],
     "emotion_valence": -0.1,
     "emotion_arousal": -0.2
@@ -138,7 +140,6 @@
   {
     "beat_id": "beat_007",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 03",
     "date": "2026-05-30",
     "emotion": "comfortable delegation",
@@ -153,7 +154,7 @@
     "phase": null,
     "themes": [
       "#delegation",
-      "#interest-in-the-work",
+      "#reframe",
       "#builder-identity"
     ],
     "emotion_valence": 0.55,
@@ -162,7 +163,6 @@
   {
     "beat_id": "beat_008",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 04",
     "date": "2026-06-01",
     "emotion": "quiet pride",
@@ -176,7 +176,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#value-visibility"
+      "#delegation",
+      "#builder-identity",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.7,
     "emotion_arousal": 0.15
@@ -184,14 +186,13 @@
   {
     "beat_id": "beat_009",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 04",
     "date": "2026-06-01",
     "emotion": "suspended disbelief",
     "pain_gain": "tension",
     "activity_type": "hitting a limit",
     "action": "Attempted to replicate a previously successful data pipeline the following month and failed to reproduce consistent output.",
-    "verbatim": "I cannot yet identify if it's an issue on my side — did I miss an angle by lack of personal knowledge on the topic? Or is it just... that's the big topic about AI in general.",
+    "verbatim": "I cannot yet identify if it's an issue on my side — did I miss an angle by lack of personal knowledge — or is it just... that's the big topic about AI in general.",
     "job_to_be_done": "Produce reliable repeatable output from a structured prompt infrastructure.",
     "complexity": 3,
     "subject": "self",
@@ -199,7 +200,8 @@
     "phase": null,
     "themes": [
       "#limit-of-the-tool",
-      "#limit-of-the-self"
+      "#limit-of-the-self",
+      "#reframe"
     ],
     "emotion_valence": -0.2,
     "emotion_arousal": 0.25
@@ -207,7 +209,6 @@
   {
     "beat_id": "beat_010",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 05",
     "date": "2026-06-02",
     "emotion": "warmth and trust",
@@ -221,8 +222,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#trust-in-the-tool",
-      "#governing-agents"
+      "#tool-as-mirror",
+      "#delegation",
+      "#dependency"
     ],
     "emotion_valence": 0.75,
     "emotion_arousal": 0.2
@@ -230,23 +232,22 @@
   {
     "beat_id": "beat_011",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 06",
     "date": "2026-06-04",
     "emotion": "electric excitement",
     "pain_gain": "breakthrough",
     "activity_type": "building",
     "action": "Designed and built a full internal product release communication system from scratch — multi-agent, multi-flow, deployed to Notion.",
-    "verbatim": "I immediately thought about creating an open visible readme document. I automatically thought about having a pitch document for external users when they discover my feature. I automatically felt that my test agent should be different from my working agent.",
+    "verbatim": "I automatically thought about creating an open visible readme document. I automatically thought about having a pitch document for external users when they discover my feature. I automatically felt that my test agent should be different from my working agent.",
     "job_to_be_done": "Ship an internal product feature that solves a communication gap no one else had addressed.",
     "complexity": 4,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#governing-agents",
-      "#collaborative-transparency",
-      "#builder-identity"
+      "#builder-identity",
+      "#delegation",
+      "#build-surface-constraints"
     ],
     "emotion_valence": 0.85,
     "emotion_arousal": 0.85
@@ -254,7 +255,6 @@
   {
     "beat_id": "beat_012",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 06",
     "date": "2026-06-04",
     "emotion": "identity expansion",
@@ -269,7 +269,8 @@
     "phase": null,
     "themes": [
       "#builder-identity",
-      "#value-visibility"
+      "#tool-as-mirror",
+      "#reframe"
     ],
     "emotion_valence": 0.8,
     "emotion_arousal": 0.7
@@ -277,7 +278,6 @@
   {
     "beat_id": "beat_013",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 07",
     "date": "2026-06-08",
     "emotion": "excitement collapsing into frustration",
@@ -291,8 +291,9 @@
     "open_question": "What are the actual build constraints of a Claude skill as a design surface?",
     "phase": null,
     "themes": [
-      "#limit-of-the-self",
-      "#cost-of-speed"
+      "#limit-of-the-tool",
+      "#builder-identity",
+      "#build-surface-constraints"
     ],
     "emotion_valence": -0.5,
     "emotion_arousal": 0.6
@@ -300,21 +301,22 @@
   {
     "beat_id": "beat_014",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 07",
     "date": "2026-06-08",
     "emotion": "deflation",
     "pain_gain": "pain",
     "activity_type": "hitting a limit",
     "action": "Discovered that reasoning narration, loading time, and copy-paste constraints make self-built skills a fundamentally inferior UX to native Claude.",
-    "verbatim": "There is a lot of stuff we can see and we could create, and the expectation is to have a native fluid experience at the scale you're building — but the reality is very different.",
+    "verbatim": "There is a lot of stuff we can see and we could create, and the expectation is to have a native fluid experience — but the reality is very different.",
     "job_to_be_done": "Understand the gap between what Claude offers as a user and what you can build with it.",
     "complexity": 4,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#build-surface-constraints"
+      "#limit-of-the-tool",
+      "#build-surface-constraints",
+      "#reframe"
     ],
     "emotion_valence": -0.55,
     "emotion_arousal": -0.4
@@ -322,21 +324,22 @@
   {
     "beat_id": "beat_015",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 07",
     "date": "2026-06-08",
     "emotion": "reluctant integration",
     "pain_gain": "tension",
     "activity_type": "reflecting",
     "action": "Reconnected the deployment failure to foundational design principles — test environment, constraint mapping, iteration cost.",
-    "verbatim": "it goes back to the usual loop of design, basically.",
+    "verbatim": "It goes back to the usual loop of design, basically.",
     "job_to_be_done": "Absorb a hard lesson without undermining the value of what was built.",
     "complexity": 2,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#reframe"
+      "#reframe",
+      "#limit-of-the-self",
+      "#builder-identity"
     ],
     "emotion_valence": 0.1,
     "emotion_arousal": -0.1
@@ -344,21 +347,22 @@
   {
     "beat_id": "beat_016",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 08",
     "date": "2026-06-08",
     "emotion": "methodical clarity",
     "pain_gain": "gain",
     "activity_type": "reflecting",
     "action": "Developed a three-stage AI framework for illustration production: strategy challenge, competitor benchmarking, content injection for relevance.",
-    "verbatim": "use AI at the beginning to refine the strategy. A bit further down for competitor analysis on illustration benchmarking, also for self-reflection on your own choices.",
+    "verbatim": "Use AI at the beginning to refine the strategy. A bit further down for competitor analysis on illustration benchmarking, also for self-reflection on your own choices.",
     "job_to_be_done": "Make illustration production at scale efficient without losing strategic intentionality.",
     "complexity": 2,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#delegation"
+      "#delegation",
+      "#builder-identity",
+      "#reframe"
     ],
     "emotion_valence": 0.5,
     "emotion_arousal": -0.1
@@ -366,7 +370,6 @@
   {
     "beat_id": "beat_017",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 08",
     "date": "2026-06-08",
     "emotion": "satisfied systematiser",
@@ -381,7 +384,8 @@
     "phase": null,
     "themes": [
       "#delegation",
-      "#collaborative-transparency"
+      "#builder-identity",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.65,
     "emotion_arousal": 0.2
@@ -389,7 +393,6 @@
   {
     "beat_id": "beat_018",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 09",
     "date": "2026-06-11",
     "emotion": "renewed sharpness",
@@ -403,7 +406,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#interest-in-the-work"
+      "#tool-as-mirror",
+      "#delegation",
+      "#reframe"
     ],
     "emotion_valence": 0.6,
     "emotion_arousal": 0.5
@@ -411,21 +416,22 @@
   {
     "beat_id": "beat_019",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 09",
     "date": "2026-06-11",
     "emotion": "grounded excitement",
     "pain_gain": "gain",
     "activity_type": "discovering a capability",
     "action": "Discovered that a mid-project competitor analysis surfaced blind spots invisible from inside the work.",
-    "verbatim": "right now at seventy-five percent done or more — still opening back, diverging, leveraging data and AI to take two steps back and look again at the big picture.",
+    "verbatim": "Right now at seventy-five percent done or more — still opening back, diverging, leveraging data and AI to take two steps back and look again at the big picture.",
     "job_to_be_done": "Maintain quality and strategic sharpness across a long repetitive production run.",
     "complexity": 3,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#tool-as-mirror"
+      "#tool-as-mirror",
+      "#reframe",
+      "#builder-identity"
     ],
     "emotion_valence": 0.7,
     "emotion_arousal": 0.55
@@ -433,7 +439,6 @@
   {
     "beat_id": "beat_020",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 10",
     "date": "2026-06-12",
     "emotion": "high frustration",
@@ -447,9 +452,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
+      "#limit-of-the-tool",
       "#ai-policy-friction",
-      "#cost-of-access",
-      "#limit-of-the-tool"
+      "#build-surface-constraints"
     ],
     "emotion_valence": -0.75,
     "emotion_arousal": 0.7
@@ -457,21 +462,22 @@
   {
     "beat_id": "beat_021",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 10",
     "date": "2026-06-12",
     "emotion": "disorientation",
     "pain_gain": "pain",
     "activity_type": "hitting a limit",
     "action": "Experienced the enterprise model as slower and more verbose than personal Claude, breaking the working rhythm she had built.",
-    "verbatim": "it doesn't match my time, the time I need to think. Not the generation of stuff, but this constant blabbing, talking through every single element before, instead of thinking quietly and displaying afterward.",
+    "verbatim": "It doesn't match my time, the time I need to think. Not the generation of stuff, but this constant blabbing, talking through every single element before, instead of thinking quietly and displaying afterward.",
     "job_to_be_done": "Maintain cognitive flow when the tool changes behaviour unexpectedly.",
     "complexity": 3,
     "subject": "self",
     "open_question": "Is enterprise Claude fundamentally a different experience — and if so, how do I adapt without losing what I built?",
     "phase": null,
     "themes": [
-      "#limit-of-the-tool"
+      "#limit-of-the-tool",
+      "#dependency",
+      "#build-surface-constraints"
     ],
     "emotion_valence": -0.55,
     "emotion_arousal": 0.3
@@ -479,7 +485,6 @@
   {
     "beat_id": "beat_022",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 10",
     "date": "2026-06-12",
     "emotion": "unsettled self-awareness",
@@ -493,8 +498,9 @@
     "open_question": "How do I hold high expectations of a tool without those expectations becoming a source of frustration when the tool changes?",
     "phase": null,
     "themes": [
-      "#trust-in-the-tool",
-      "#cost-of-speed"
+      "#dependency",
+      "#tool-as-mirror",
+      "#reframe"
     ],
     "emotion_valence": -0.2,
     "emotion_arousal": 0.2
@@ -502,21 +508,22 @@
   {
     "beat_id": "beat_023",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 11",
     "date": "2026-06-13",
     "emotion": "analytical curiosity",
     "pain_gain": "gain",
     "activity_type": "observing others",
     "action": "Observed a salesperson using AI scepticism as a sales positioning device — turning the question of data accuracy into a credibility signal.",
-    "verbatim": "his positioning regarding AI has become not that he doesn't trust it, but: when do we use it, and how?",
+    "verbatim": "His positioning regarding AI has become not that he doesn't trust it, but: when do we use it, and how?",
     "job_to_be_done": "Map how different professional identities shape AI adoption posture.",
     "complexity": 1,
     "subject": "other",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#observation-of-others"
+      "#observation-of-others",
+      "#tool-as-mirror",
+      "#reframe"
     ],
     "emotion_valence": 0.35,
     "emotion_arousal": 0.35
@@ -524,7 +531,6 @@
   {
     "beat_id": "beat_024",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 11",
     "date": "2026-06-13",
     "emotion": "mild concern",
@@ -538,7 +544,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#observation-of-others"
+      "#observation-of-others",
+      "#limit-of-the-self",
+      "#ai-policy-friction"
     ],
     "emotion_valence": -0.3,
     "emotion_arousal": 0.1
@@ -546,21 +554,22 @@
   {
     "beat_id": "beat_025",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 11",
     "date": "2026-06-13",
     "emotion": "quiet intrigue",
     "pain_gain": "gain",
     "activity_type": "observing others",
     "action": "Observed a colleague present an AI-produced competitive analysis but unable to hold a conversation about its content.",
-    "verbatim": "he didn't have full ownership of it, because it was produced by someone else. And I'm wondering if that's why he was showing me the document to feel legitimate — instead of having a conversation about what he actually discovered.",
+    "verbatim": "He didn't have full ownership of it, because it was produced by someone else. And I'm wondering if that's why he was showing me the document to feel legitimate — instead of having a conversation about what he actually discovered.",
     "job_to_be_done": "Understand the relationship between AI-produced output and intellectual ownership.",
     "complexity": 1,
     "subject": "other",
     "open_question": "When AI produces the artifact, who owns the knowledge — and does it matter?",
     "phase": null,
     "themes": [
-      "#observation-of-others"
+      "#observation-of-others",
+      "#delegation",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.4,
     "emotion_arousal": 0.1
@@ -568,7 +577,6 @@
   {
     "beat_id": "beat_026",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 12",
     "date": "2026-06-16",
     "emotion": "generative curiosity",
@@ -582,8 +590,9 @@
     "open_question": "Is blabbing about AI a format in itself — or raw material for something else?",
     "phase": null,
     "themes": [
-      "#how-i-learn",
-      "#value-visibility"
+      "#tool-as-mirror",
+      "#builder-identity",
+      "#reframe"
     ],
     "emotion_valence": 0.65,
     "emotion_arousal": 0.5
@@ -591,7 +600,6 @@
   {
     "beat_id": "beat_027",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 13",
     "date": "2026-06-17",
     "emotion": "surprised competence",
@@ -605,7 +613,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#observation-of-others"
+      "#tool-as-mirror",
+      "#observation-of-others",
+      "#builder-identity"
     ],
     "emotion_valence": 0.7,
     "emotion_arousal": 0.5
@@ -613,14 +623,13 @@
   {
     "beat_id": "beat_028",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 13",
     "date": "2026-06-17",
     "emotion": "frustrated clarity",
     "pain_gain": "tension",
     "activity_type": "observing others",
     "action": "Observed that the company AI policy session led with rules and restrictions before use cases, killing enthusiasm before it started.",
-    "verbatim": "organising change management about how to set up a tool is absolutely low-excitement, high-difficulty to engage with, very boring for everyone.",
+    "verbatim": "Organising change management about how to set up a tool is absolutely low-excitement, high-difficulty to engage with, very boring for everyone.",
     "job_to_be_done": "Understand how institutional framing shapes AI adoption before the first use.",
     "complexity": 1,
     "subject": "other",
@@ -628,7 +637,8 @@
     "phase": null,
     "themes": [
       "#ai-policy-friction",
-      "#observation-of-others"
+      "#observation-of-others",
+      "#reframe"
     ],
     "emotion_valence": -0.3,
     "emotion_arousal": 0.4
@@ -636,7 +646,6 @@
   {
     "beat_id": "beat_029",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 14",
     "date": "2026-06-18",
     "emotion": "blocked and unsettled",
@@ -651,7 +660,8 @@
     "phase": null,
     "themes": [
       "#dependency",
-      "#limit-of-the-tool"
+      "#limit-of-the-tool",
+      "#build-surface-constraints"
     ],
     "emotion_valence": -0.65,
     "emotion_arousal": 0.4
@@ -659,7 +669,6 @@
   {
     "beat_id": "beat_030",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 14",
     "date": "2026-06-18",
     "emotion": "calm self-observation",
@@ -674,7 +683,8 @@
     "phase": null,
     "themes": [
       "#dependency",
-      "#trust-in-the-tool"
+      "#tool-as-mirror",
+      "#reframe"
     ],
     "emotion_valence": 0.2,
     "emotion_arousal": -0.3
@@ -682,7 +692,6 @@
   {
     "beat_id": "beat_031",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 15",
     "date": "2026-06-21",
     "emotion": "open and absorbing",
@@ -696,7 +705,9 @@
     "open_question": "What does it mean to truly understand AI — and is understanding it necessary to use it well?",
     "phase": null,
     "themes": [
-      "#how-i-learn"
+      "#limit-of-the-self",
+      "#reframe",
+      "#language-and-expression"
     ],
     "emotion_valence": 0.55,
     "emotion_arousal": 0.2
@@ -704,14 +715,13 @@
   {
     "beat_id": "beat_032",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 16",
     "date": "2026-06-23",
     "emotion": "fluid efficiency",
     "pain_gain": "gain",
     "activity_type": "prompting",
     "action": "Used voice-to-speech Claude on mobile while walking the cat to draft a holiday handover document and prepare professional messages.",
-    "verbatim": "for someone like me — a systems thinker who needs to say the same thing twenty times to embody an idea — doing it twenty times to a machine is very, very useful.",
+    "verbatim": "For someone like me — a systems thinker who needs to say the same thing twenty times to embody an idea — doing it twenty times to a machine is very, very useful.",
     "job_to_be_done": "Reclaim mobility time as productive thinking and output time without returning to a desk.",
     "complexity": 2,
     "subject": "self",
@@ -719,8 +729,8 @@
     "phase": null,
     "themes": [
       "#mobile-and-mobility",
-      "#how-i-learn",
-      "#delegation"
+      "#delegation",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.65,
     "emotion_arousal": 0.3
@@ -728,7 +738,6 @@
   {
     "beat_id": "beat_033",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 16",
     "date": "2026-06-23",
     "emotion": "ambiguous",
@@ -743,7 +752,8 @@
     "phase": null,
     "themes": [
       "#mobile-and-mobility",
-      "#cost-of-speed"
+      "#dependency",
+      "#reframe"
     ],
     "emotion_valence": -0.1,
     "emotion_arousal": 0
@@ -751,14 +761,13 @@
   {
     "beat_id": "beat_034",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 17",
     "date": "2026-06-24",
     "emotion": "principled frustration",
     "pain_gain": "pain",
     "activity_type": "observing others",
     "action": "Heard a company policy rule that held the builder responsible for maintaining everything they create with AI — and named it as an innovation killer.",
-    "verbatim": "telling people who are just starting to explore AI — and right now most people in the company are not using it much — that as soon as you produce something you want to share with more than one person, you're the one to blame, you need to maintain it, it's adding working time... it's just not worth the effort.",
+    "verbatim": "Telling people who are just starting to explore AI — as soon as you produce something you want to share with more than one person, you're the one to blame, you need to maintain it, it's adding working time... it's just not worth the effort.",
     "job_to_be_done": "Identify how institutional policy shapes the risk appetite for AI experimentation.",
     "complexity": 1,
     "subject": "other",
@@ -766,7 +775,8 @@
     "phase": null,
     "themes": [
       "#ai-policy-friction",
-      "#collaborative-transparency"
+      "#builder-identity",
+      "#observation-of-others"
     ],
     "emotion_valence": -0.5,
     "emotion_arousal": 0.55
@@ -774,7 +784,6 @@
   {
     "beat_id": "beat_035",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 17",
     "date": "2026-06-24",
     "emotion": "energised recognition",
@@ -788,9 +797,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#value-visibility",
       "#observation-of-others",
-      "#collaborative-transparency"
+      "#builder-identity",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.7,
     "emotion_arousal": 0.65
@@ -798,14 +807,13 @@
   {
     "beat_id": "beat_036",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 17",
     "date": "2026-06-24",
     "emotion": "amused recognition",
     "pain_gain": "gain",
     "activity_type": "observing others",
     "action": "Realised the head of marketing had replicated her own AI methodology — and couldn't answer basic technical questions about it.",
-    "verbatim": "she basically took my process. I couldn't be offended — I take it as a great compliment.",
+    "verbatim": "She basically took my process. I couldn't be offended — I take it as a great compliment.",
     "job_to_be_done": "Observe how AI methodology spreads through an organisation without the underlying understanding.",
     "complexity": 1,
     "subject": "other",
@@ -813,7 +821,8 @@
     "phase": null,
     "themes": [
       "#observation-of-others",
-      "#value-visibility"
+      "#delegation",
+      "#reframe"
     ],
     "emotion_valence": 0.6,
     "emotion_arousal": 0.3
@@ -821,22 +830,22 @@
   {
     "beat_id": "beat_037",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 18",
     "date": "2026-06-24",
     "emotion": "focused satisfaction",
     "pain_gain": "gain",
     "activity_type": "building",
     "action": "Launched a full website copy audit using the brand voice system she had been building — closing the loop on months of investment.",
-    "verbatim": "to loop back and start leveraging the investment I've been making in producing these rules and this system. Not just for new pages, but to overall increase the quality of our writing expression.",
+    "verbatim": "To loop back and start leveraging the investment I've been making in producing these rules and this system. Not just for new pages, but to overall increase the quality of our writing expression.",
     "job_to_be_done": "Harvest the accumulated value of a long AI investment in a single high-leverage action.",
     "complexity": 3,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#governing-agents",
-      "#interest-in-the-work"
+      "#delegation",
+      "#builder-identity",
+      "#reframe"
     ],
     "emotion_valence": 0.65,
     "emotion_arousal": 0.3
@@ -844,7 +853,6 @@
   {
     "beat_id": "beat_038",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 18",
     "date": "2026-06-24",
     "emotion": "pragmatic pride",
@@ -859,7 +867,8 @@
     "phase": null,
     "themes": [
       "#delegation",
-      "#governing-agents"
+      "#build-surface-constraints",
+      "#builder-identity"
     ],
     "emotion_valence": 0.65,
     "emotion_arousal": 0.25
@@ -867,21 +876,22 @@
   {
     "beat_id": "beat_039",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 18",
     "date": "2026-06-24",
     "emotion": "measured clarity",
     "pain_gain": "gain",
     "activity_type": "reflecting",
     "action": "Named the need to start tracking time invested versus output delivered — to be able to argue AI's value in stakeholder meetings.",
-    "verbatim": "these experiments more closely — because they need to correlate with value so I can express them in stakeholder meetings. I need to be able to argue about them later.",
+    "verbatim": "These experiments need to correlate with value so I can express them in stakeholder meetings. I need to be able to argue about them later.",
     "job_to_be_done": "Build a personal ROI framework for AI work that translates into organisational language.",
     "complexity": 2,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#value-visibility"
+      "#builder-identity",
+      "#reframe",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.5,
     "emotion_arousal": -0.1
@@ -889,21 +899,22 @@
   {
     "beat_id": "beat_040",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 19",
     "date": "2026-06-25",
     "emotion": "clean delight",
     "pain_gain": "gain",
     "activity_type": "building",
     "action": "Connected HubSpot data to Framer CMS via Claude — automatically populating company metadata entries that would have been fully manual work.",
-    "verbatim": "this is such manual, annoying work otherwise.",
+    "verbatim": "This is such manual, annoying work otherwise.",
     "job_to_be_done": "Delete repetitive data entry from the workflow entirely by connecting sources through AI.",
     "complexity": 4,
     "subject": "self",
     "open_question": null,
     "phase": null,
     "themes": [
-      "#delegation"
+      "#delegation",
+      "#build-surface-constraints",
+      "#builder-identity"
     ],
     "emotion_valence": 0.8,
     "emotion_arousal": 0.6
@@ -911,7 +922,6 @@
   {
     "beat_id": "beat_041",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 19",
     "date": "2026-06-25",
     "emotion": "appetite for more",
@@ -926,7 +936,8 @@
     "phase": null,
     "themes": [
       "#delegation",
-      "#interest-in-the-work"
+      "#build-surface-constraints",
+      "#builder-identity"
     ],
     "emotion_valence": 0.7,
     "emotion_arousal": 0.65
@@ -934,22 +945,22 @@
   {
     "beat_id": "beat_042",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 20",
     "date": "2026-06-26",
     "emotion": "calibrated confidence",
     "pain_gain": "gain",
     "activity_type": "reflecting",
     "action": "Explained Claude's memory model to a colleague while acknowledging her own uncertainty.",
-    "verbatim": "And I guess it's a bit better now.\nI can't wait to hear from him in a couple of months about his process",
+    "verbatim": "And I guess it's a bit better now. I can't wait to hear from him in a couple of months about his process.",
     "job_to_be_done": "Gauge understanding by testing it against someone else's confusion.",
     "complexity": 2,
     "subject": "self+other",
     "open_question": "How much of what she explained about memory is accurate — and will it hold when he tests it?",
     "phase": null,
     "themes": [
-      "#observation-of-others",
-      "#limit-of-the-self"
+      "#tool-as-mirror",
+      "#limit-of-the-self",
+      "#observation-of-others"
     ],
     "emotion_valence": 0.6,
     "emotion_arousal": 0.25
@@ -957,7 +968,6 @@
   {
     "beat_id": "beat_043",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 20",
     "date": "2026-06-26",
     "emotion": "retrospective clarity",
@@ -971,7 +981,8 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#how-i-learn"
+      "#tool-as-mirror",
+      "#language-and-expression"
     ],
     "emotion_valence": 0.6,
     "emotion_arousal": -0.05
@@ -979,7 +990,6 @@
   {
     "beat_id": "beat_044",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 21",
     "date": "2026-06-26",
     "emotion": "structural dissonance",
@@ -993,7 +1003,9 @@
     "open_question": "How much output quality has already been lost to poorly structured inputs?",
     "phase": null,
     "themes": [
-      "#limit-of-the-self"
+      "#limit-of-the-self",
+      "#builder-identity",
+      "#reframe"
     ],
     "emotion_valence": -0.4,
     "emotion_arousal": 0.45
@@ -1001,7 +1013,6 @@
   {
     "beat_id": "beat_045",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 21",
     "date": "2026-06-26",
     "emotion": "methodical recalibration",
@@ -1015,7 +1026,8 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#governing-agents",
+      "#delegation",
+      "#builder-identity",
       "#limit-of-the-self"
     ],
     "emotion_valence": 0.35,
@@ -1024,7 +1036,6 @@
   {
     "beat_id": "beat_046",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 21",
     "date": "2026-06-26",
     "emotion": "scope expansion",
@@ -1039,7 +1050,7 @@
     "phase": null,
     "themes": [
       "#reframe",
-      "#how-i-learn"
+      "#builder-identity"
     ],
     "emotion_valence": 0.55,
     "emotion_arousal": 0.4
@@ -1047,7 +1058,6 @@
   {
     "beat_id": "beat_047",
     "schema_version": "v2",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 21",
     "date": "2026-06-26",
     "emotion": "compounding satisfaction",
@@ -1061,8 +1071,9 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#how-i-learn",
-      "#governing-agents"
+      "#builder-identity",
+      "#delegation",
+      "#tool-as-mirror"
     ],
     "emotion_valence": 0.75,
     "emotion_arousal": 0.3
@@ -1070,7 +1081,6 @@
   {
     "beat_id": "beat_048",
     "schema_version": "v3",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 22",
     "date": "2026-06-27",
     "emotion": "exasperated disbelief",
@@ -1087,13 +1097,12 @@
     "phase": null,
     "themes": [
       "#limit-of-the-tool",
-      "#limit-of-the-self"
+      "#build-surface-constraints"
     ]
   },
   {
     "beat_id": "beat_049",
     "schema_version": "v3",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 22",
     "date": "2026-06-27",
     "emotion": "sober recognition of a communication gap",
@@ -1116,7 +1125,6 @@
   {
     "beat_id": "beat_050",
     "schema_version": "v3",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 22",
     "date": "2026-06-27",
     "emotion": "quiet ownership pride",
@@ -1132,13 +1140,13 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#builder-identity"
+      "#builder-identity",
+      "#delegation"
     ]
   },
   {
     "beat_id": "beat_051",
     "schema_version": "v3",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 22",
     "date": "2026-06-27",
     "emotion": "mild surprised disappointment",
@@ -1160,7 +1168,6 @@
   {
     "beat_id": "beat_052",
     "schema_version": "v3",
-    "taxonomy_version": "v3",
     "entry_ref": "Entry 22",
     "date": "2026-06-27",
     "emotion": "quietly pleased identity discovery",
@@ -1176,8 +1183,7 @@
     "open_question": null,
     "phase": null,
     "themes": [
-      "#builder-identity",
-      "#collaborative-transparency"
+      "#builder-identity"
     ]
   }
 ]
