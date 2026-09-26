@@ -1,0 +1,1053 @@
+[
+  {
+    "beat_id": "beat_001",
+    "entry_ref": "Entry 01",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#delegation",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#delegation"
+    ],
+    "anchors": {
+      "#delegation": "Just, you know, taking time to set up some Notion page where I will ask Fred to create tasks and estimate time and value and communicate about the impact of the task itself. And it was quite interesting."
+    },
+    "verbatim_before": "I didn't take her or him or whatever pronoun for Signal as a — like, you tell me what to do.",
+    "verbatim_after": "I didn't take her or he or whatever pronoun for Signal as a \"you tell me what to do.\"",
+    "flags": [
+      "info: verbatim restored, word similarity 0.900"
+    ]
+  },
+  {
+    "beat_id": "beat_002",
+    "entry_ref": "Entry 01",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#language-and-expression",
+      "#bilingual-cognition"
+    ],
+    "themes_after": [
+      "#tool-as-mirror",
+      "#language-and-expression",
+      "#bilingual-cognition"
+    ],
+    "anchors": {
+      "#tool-as-mirror": "I learned by just, you know, asking Signal to reflect on the way I'm communicating, to just notice recurring patterns.",
+      "#language-and-expression": "So transforming my way of talking about stuff in general at work — starting by the main points and posing it before going for context and detail, only if it's asked.",
+      "#bilingual-cognition": "One of them being my way of speaking — very language-anchored in my Latin roots in France."
+    },
+    "verbatim_before": "There is something in me that is always about bringing the context before talking about impact — and I needed to reverse that.",
+    "verbatim_after": null,
+    "flags": [
+      "verbatim not an exact substring of transcript; best match in entry has word similarity 0.786 (< 0.8); stored verbatim kept",
+      "best match span: There is something in me that is always about bringing the context before talking about impact. And in a world where everyone has very limited focus and attention, I needed to reverse that."
+    ]
+  },
+  {
+    "beat_id": "beat_003",
+    "entry_ref": "Entry 01",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#language-and-expression",
+      "#delegation"
+    ],
+    "themes_after": [
+      "#tool-as-mirror"
+    ],
+    "anchors": {
+      "#tool-as-mirror": "And basically, refining my conversation with myself, leveraging the mirroring effect of the agent."
+    },
+    "verbatim_before": "I just need to say to someone: can we have this conversation? And basically refining my conversation with myself, leveraging the mirroring effect of the agent.",
+    "verbatim_after": "I just need to say to someone: can we have this conversation? And basically, refining my conversation with myself, leveraging the mirroring effect of the agent.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_004",
+    "entry_ref": "Entry 02",
+    "themes_before": [
+      "#delegation",
+      "#limit-of-the-self",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#how-i-learn"
+    ],
+    "anchors": {
+      "#how-i-learn": "Because of course, you have different ways to use a tool, and my way is to get a first layer of answer, but also being able to challenge the why. So I think I grew so much on SEO the last couple of weeks."
+    },
+    "verbatim_before": "I noticed that it changed the way I was getting this help — it also helped me grow on my understanding.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_005",
+    "entry_ref": "Entry 02",
+    "themes_before": [
+      "#limit-of-the-self",
+      "#limit-of-the-tool",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#limit-of-the-self",
+      "#reframe"
+    ],
+    "anchors": {
+      "#limit-of-the-self": "Until I met my own limitation.",
+      "#reframe": "So I feel — or I experienced — that you can use a tool only if you know yourself first. That's the clear thing at the moment."
+    },
+    "verbatim_before": "I feel — or I experienced — that you can use a tool only if you know yourself first.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_006",
+    "entry_ref": "Entry 03",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#limit-of-the-self",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#limit-of-the-tool",
+      "#limit-of-the-self"
+    ],
+    "anchors": {
+      "#limit-of-the-tool": "And no tool could tell me that, because the tool could only help me identify what I already asked, or what I already knew.",
+      "#limit-of-the-self": "Basically — maybe I misused the tool. Maybe I was missing some context. But what I just realized more and more, working on a very niche topic like this one, is that the limitations of the tool are really my own limitations."
+    },
+    "verbatim_before": "No tool could tell me that, because the tool could only help me identify what I already asked, or what I already knew.",
+    "verbatim_after": "no tool could tell me that, because the tool could only help me identify what I already asked, or what I already knew.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_007",
+    "entry_ref": "Entry 03",
+    "themes_before": [
+      "#delegation",
+      "#reframe",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#delegation",
+      "#interest-in-the-work",
+      "#builder-identity"
+    ],
+    "anchors": {
+      "#delegation": "I'm like: okay, just give me three propositions. And if this is something I need to do on a lot of items, I'm like: give me three options, recommend me one and say why. And I have the feeling it's quite human nature — to delegate your choice when you have information overload.",
+      "#interest-in-the-work": "But I also realize how I've been losing interest, because it's not my core skill. So at the end of the day, when my meta description is not good enough and it's flagged by my SEO agent as not containing enough of the keywords we should be positioned about — I'm becoming lazy.",
+      "#builder-identity": "It's also closer to the relationship you'd have as a team manager or as a creative director, which is something I totally embrace."
+    },
+    "verbatim_before": "I'm like: okay, just give me three propositions. And if this is something I need to do on a lot of items, I'm like: give me three options, recommend me one and say why.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_008",
+    "entry_ref": "Entry 04",
+    "themes_before": [
+      "#delegation",
+      "#builder-identity",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#value-visibility"
+    ],
+    "anchors": {
+      "#value-visibility": "I've been running it, sharing it — having the wall effect of the live data and the seriousness of it, creating a bias in my audience."
+    },
+    "verbatim_before": "How to drive data-driven conversation with an artifact was very powerful. It helped me shift some stakeholder discussions toward something that was going in the best interest of both the business goals and user needs.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_009",
+    "entry_ref": "Entry 04",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#limit-of-the-self",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#limit-of-the-tool",
+      "#limit-of-the-self"
+    ],
+    "anchors": {
+      "#limit-of-the-tool": "I realized that the support function — which is my AI — is not actually able to replicate the process, even when prompted in a cohesive way, even with the exact same input.",
+      "#limit-of-the-self": "And I cannot yet identify if it's an issue on my side — did I miss an angle by lack of personal knowledge on the topic?"
+    },
+    "verbatim_before": "I cannot yet identify if it's an issue on my side — did I miss an angle by lack of personal knowledge — or is it just... that's the big topic about AI in general.",
+    "verbatim_after": "I cannot yet identify if it's an issue on my side — did I miss an angle by lack of personal knowledge on the topic? Or is it just... that's the big topic about AI in general.",
+    "flags": [
+      "info: verbatim restored, word similarity 0.944"
+    ]
+  },
+  {
+    "beat_id": "beat_010",
+    "entry_ref": "Entry 05",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#delegation",
+      "#dependency"
+    ],
+    "themes_after": [
+      "#trust-in-the-tool",
+      "#governing-agents"
+    ],
+    "anchors": {
+      "#trust-in-the-tool": "And it made me feel happy and trusted. I feel more in control with this tool.",
+      "#governing-agents": "I created a new rule: next time you need to duplicate or make changes on Notion, take a break and just save the current version in a Toggle archive before doing it. And it feels safer for me."
+    },
+    "verbatim_before": "\"Oh, let me first save it following the rule that you said before. Then I will make the changes.\" And it made me feel happy and trusted.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_011",
+    "entry_ref": "Entry 06",
+    "themes_before": [
+      "#builder-identity",
+      "#delegation",
+      "#build-surface-constraints"
+    ],
+    "themes_after": [
+      "#governing-agents",
+      "#collaborative-transparency",
+      "#builder-identity"
+    ],
+    "anchors": {
+      "#governing-agents": "I automatically felt that my test agent should be different from my working agent.",
+      "#collaborative-transparency": "Like, I immediately thought about creating an open visible readme document.",
+      "#builder-identity": "And then tonight is protocol even — so I am not a developer. But being in this mindset has been very, very exciting."
+    },
+    "verbatim_before": "I automatically thought about creating an open visible readme document. I automatically thought about having a pitch document for external users when they discover my feature. I automatically felt that my test agent should be different from my working agent.",
+    "verbatim_after": "I immediately thought about creating an open visible readme document. I automatically thought about having a pitch document for external users when they discover my feature. I automatically felt that my test agent should be different from my working agent.",
+    "flags": [
+      "info: verbatim restored, word similarity 0.975"
+    ]
+  },
+  {
+    "beat_id": "beat_012",
+    "entry_ref": "Entry 06",
+    "themes_before": [
+      "#builder-identity",
+      "#tool-as-mirror",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#builder-identity",
+      "#value-visibility"
+    ],
+    "anchors": {
+      "#builder-identity": "Also reflecting a lot on my own personality — like, I'm such a builder, like, a born builder, that this is unlocking a lot of parts of me.",
+      "#value-visibility": "Like, how do I package someone like me in the job market today? It's also a very open question."
+    },
+    "verbatim_before": "I'm such a builder, like, a born builder, that this is unlocking a lot of parts of me.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_013",
+    "entry_ref": "Entry 07",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#builder-identity",
+      "#build-surface-constraints"
+    ],
+    "themes_after": [
+      "#limit-of-the-self",
+      "#cost-of-speed"
+    ],
+    "anchors": {
+      "#limit-of-the-self": "A few rookie mistakes — every designer, every engineer knows them. But of course I didn't follow best practice. I tested a lot of things in an environment that was not the production or the final stage.",
+      "#cost-of-speed": "I got addicted to the power of ratings here and service design integrated to check function. And it just ate me alive."
+    },
+    "verbatim_before": "I was ready to launch. I actually launched, and I had to roll back.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_014",
+    "entry_ref": "Entry 07",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#build-surface-constraints",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#build-surface-constraints"
+    ],
+    "anchors": {
+      "#build-surface-constraints": "Also I think the wall I hit when creating skills is the difference between the native conversation you can have with the Claude chat and what you can actually produce yourself — because that's different stuff."
+    },
+    "verbatim_before": "There is a lot of stuff we can see and we could create, and the expectation is to have a native fluid experience — but the reality is very different.",
+    "verbatim_after": "There is a lot of stuff we can see and we could create, and the expectation is to have a native fluid experience at the scale you're building — but the reality is very different.",
+    "flags": [
+      "info: verbatim restored, word similarity 0.923"
+    ]
+  },
+  {
+    "beat_id": "beat_015",
+    "entry_ref": "Entry 07",
+    "themes_before": [
+      "#reframe",
+      "#limit-of-the-self",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#reframe"
+    ],
+    "anchors": {
+      "#reframe": "But what's really interesting is the very basics of it. Test in the right environment. Learn the constraints of the tool before building an experience. And it goes back to the usual loop of design, basically."
+    },
+    "verbatim_before": "It goes back to the usual loop of design, basically.",
+    "verbatim_after": "it goes back to the usual loop of design, basically.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_016",
+    "entry_ref": "Entry 08",
+    "themes_before": [
+      "#delegation",
+      "#builder-identity",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#delegation"
+    ],
+    "anchors": {
+      "#delegation": "And ten minutes later I was like: okay, but I'd also like the same visual using the same content, but for the beverage industry. And it's exactly the same visual elements — logo types aside — but taking the time to rethink every single written element to make it plausible is such a loss of time. So AI handles that instantly."
+    },
+    "verbatim_before": "Use AI at the beginning to refine the strategy. A bit further down for competitor analysis on illustration benchmarking, also for self-reflection on your own choices.",
+    "verbatim_after": "use AI at the beginning to refine the strategy. A bit further down for competitor analysis on illustration benchmarking, also for self-reflection on your own choices.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_017",
+    "entry_ref": "Entry 08",
+    "themes_before": [
+      "#delegation",
+      "#builder-identity",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#delegation",
+      "#collaborative-transparency"
+    ],
+    "anchors": {
+      "#delegation": "Super nice to have an assistant to log the decisions as you take them and organise the communication.",
+      "#collaborative-transparency": "But also I can delegate. I have a brief ready that doesn't say how to do it specifically, but more: what's the vision for this segment of illustration? What were the strategic decisions?"
+    },
+    "verbatim_before": "I can actually pick up this conversation in three months and know exactly where I am. But also I can delegate.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_018",
+    "entry_ref": "Entry 09",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#delegation",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#interest-in-the-work"
+    ],
+    "anchors": {
+      "#interest-in-the-work": "I'm always really excited to start new projects, but my tendency seems to deviate on motivation when things get too long. I like action. So this has been really working well for me — giving me second thoughts, giving me distance, giving me the edge of a challenge to do good closure before I'm done."
+    },
+    "verbatim_before": "I need to challenge myself with this project. I've been writing the content, but right now I'm deviating from a creative production mode to a bit of a repetitive thing.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_019",
+    "entry_ref": "Entry 09",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#reframe",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#tool-as-mirror"
+    ],
+    "anchors": {
+      "#tool-as-mirror": "Not talking to myself only, but creating this in-between artifact that's a bit of a gatekeeper — bringing me back to basics on some topics, opening new things I couldn't quantify before."
+    },
+    "verbatim_before": "Right now at seventy-five percent done or more — still opening back, diverging, leveraging data and AI to take two steps back and look again at the big picture.",
+    "verbatim_after": "right now at seventy-five percent done or more — still opening back, diverging, leveraging data and AI to take two steps back and look again at the big picture.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_020",
+    "entry_ref": "Entry 10",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#ai-policy-friction",
+      "#build-surface-constraints"
+    ],
+    "themes_after": [
+      "#ai-policy-friction",
+      "#cost-of-access",
+      "#limit-of-the-tool"
+    ],
+    "anchors": {
+      "#ai-policy-friction": "I'm using the same plugin, but I need admin validation for some aspects. The connector with Framer MCP — if it's not the official one — isn't trusted by the closed store, and everything becomes more complex.",
+      "#cost-of-access": "But the capacity of it — it's just a Pro license, and it runs out quite fast compared to how I'm using it.",
+      "#limit-of-the-tool": "some stuff was part of the memory of the conversation itself, on my own account — and that's not something you can transfer."
+    },
+    "verbatim_before": "I spent a long, long time trying to fix it, realized it wasn't on my end, that it needed admin involvement.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_021",
+    "entry_ref": "Entry 10",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#dependency",
+      "#build-surface-constraints"
+    ],
+    "themes_after": [
+      "#limit-of-the-tool"
+    ],
+    "anchors": {
+      "#limit-of-the-tool": "Because it doesn't match my time, the time I need to think. Not the generation of stuff, but this constant blabbing, talking through every single element before, instead of thinking quietly and displaying afterward."
+    },
+    "verbatim_before": "It doesn't match my time, the time I need to think. Not the generation of stuff, but this constant blabbing, talking through every single element before, instead of thinking quietly and displaying afterward.",
+    "verbatim_after": "it doesn't match my time, the time I need to think. Not the generation of stuff, but this constant blabbing, talking through every single element before, instead of thinking quietly and displaying afterward.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_022",
+    "entry_ref": "Entry 10",
+    "themes_before": [
+      "#dependency",
+      "#tool-as-mirror",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#trust-in-the-tool",
+      "#cost-of-speed"
+    ],
+    "anchors": {
+      "#trust-in-the-tool": "It's really weird to say that about a machine. But the topic is still very valid. I projected an expectation. I knew the way it should behave. And now I have this reaction of being disappointed.",
+      "#cost-of-speed": "And it was a work-from-home day, so I wasn't taking breaks, or very small breaks. And I realised — this is not healthy. This is not a healthy way of working."
+    },
+    "verbatim_before": "If Claude is competing with itself all the time, and I'm creating this mental image of what success looks like when I interact with this tool — how come I release this frustration? Is there a path, from Claude's perspective, to deal with the expectations I'm projecting onto it?",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_023",
+    "entry_ref": "Entry 11",
+    "themes_before": [
+      "#observation-of-others",
+      "#tool-as-mirror",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#observation-of-others"
+    ],
+    "anchors": {
+      "#observation-of-others": "So his positioning regarding AI has become not that he doesn't trust it, but: when do we use it, and how? And it's part of his sales posture."
+    },
+    "verbatim_before": "His positioning regarding AI has become not that he doesn't trust it, but: when do we use it, and how?",
+    "verbatim_after": "his positioning regarding AI has become not that he doesn't trust it, but: when do we use it, and how?",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_024",
+    "entry_ref": "Entry 11",
+    "themes_before": [
+      "#observation-of-others",
+      "#limit-of-the-self",
+      "#ai-policy-friction"
+    ],
+    "themes_after": [
+      "#observation-of-others"
+    ],
+    "anchors": {
+      "#observation-of-others": "was talking in very broad words about how she will package all the content we have, put it in Claude, and the output will be fantastic content because that's the way things go."
+    },
+    "verbatim_before": "She was like: yeah, I'll package all the content we have, put it in Claude, and the output will be fantastic content because that's the way things go.",
+    "verbatim_after": null,
+    "flags": [
+      "verbatim not an exact substring of transcript; best match in entry has word similarity 0.714 (< 0.8); stored verbatim kept",
+      "best match span: she was so against it not long ago — was talking in very broad words about how she will package all the content we have, put it in Claude, and the output will be fantastic content because that's the way things go."
+    ]
+  },
+  {
+    "beat_id": "beat_025",
+    "entry_ref": "Entry 11",
+    "themes_before": [
+      "#observation-of-others",
+      "#delegation",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#observation-of-others"
+    ],
+    "anchors": {
+      "#observation-of-others": "He was like: I created this fantastic source of truth, it's so interesting, let me show you."
+    },
+    "verbatim_before": "He didn't have full ownership of it, because it was produced by someone else. And I'm wondering if that's why he was showing me the document to feel legitimate — instead of having a conversation about what he actually discovered.",
+    "verbatim_after": "he didn't have full ownership of it, because it was produced by someone else. And I'm wondering if that's why he was showing me the document to feel legitimate — instead of having a conversation about what he actually discovered.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_026",
+    "entry_ref": "Entry 12",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#builder-identity",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#how-i-learn",
+      "#value-visibility"
+    ],
+    "anchors": {
+      "#how-i-learn": "Wouldn't it be a great source of learning to categorize, slice, and organize all those entries I'm sharing?",
+      "#value-visibility": "Something I'm thinking about right now because I'm curious not only about the journey in myself, but about the visibility of this journey for others."
+    },
+    "verbatim_before": "I can categorize it almost like a customer journey or a path map — by emotion, by frustration type.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_027",
+    "entry_ref": "Entry 13",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#observation-of-others",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#observation-of-others"
+    ],
+    "anchors": {
+      "#observation-of-others": "But what's very, very much interesting is how I have the feeling that, from her point of view, using the tool with an intent is not coming naturally."
+    },
+    "verbatim_before": "I realised I'm getting very fluent on the topic — and that I actually have way more than I thought.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_028",
+    "entry_ref": "Entry 13",
+    "themes_before": [
+      "#ai-policy-friction",
+      "#observation-of-others",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#ai-policy-friction",
+      "#observation-of-others"
+    ],
+    "anchors": {
+      "#ai-policy-friction": "And it's been interesting to realise that it's a lot of politics and a lot of showing policy. Oh, you connect your tool, but it's not at all talking about what's the advantage for you.",
+      "#observation-of-others": "I'm starting to see the maturity — or lack of it — around AI among people in different jobs and positions in my company. And I'm very surprised."
+    },
+    "verbatim_before": "Organising change management about how to set up a tool is absolutely low-excitement, high-difficulty to engage with, very boring for everyone.",
+    "verbatim_after": "organising change management about how to set up a tool is absolutely low-excitement, high-difficulty to engage with, very boring for everyone.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_029",
+    "entry_ref": "Entry 14",
+    "themes_before": [
+      "#dependency",
+      "#limit-of-the-tool",
+      "#build-surface-constraints"
+    ],
+    "themes_after": [
+      "#dependency",
+      "#limit-of-the-tool"
+    ],
+    "anchors": {
+      "#dependency": "This is really like the improvement loop I'm trying to build around our content production. And it's super Claude-dependent.",
+      "#limit-of-the-tool": "But Claude was down. And not visibly"
+    },
+    "verbatim_before": "I felt blocked. I had these tasks ready to go, kind of written down in a structured way to launch and go for a coffee — and it doesn't work.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_030",
+    "entry_ref": "Entry 14",
+    "themes_before": [
+      "#dependency",
+      "#tool-as-mirror",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#dependency",
+      "#trust-in-the-tool"
+    ],
+    "anchors": {
+      "#dependency": "How did I end up in this situation of dependency with a tool?",
+      "#trust-in-the-tool": "But today it was different. First of all, Figma and Framer never let me down that way."
+    },
+    "verbatim_before": "How did I end up in this situation of dependency with a tool? And it's a quite recent thing — I'm in deep adoption right now, but it's still a new habit.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_031",
+    "entry_ref": "Entry 15",
+    "themes_before": [
+      "#limit-of-the-self",
+      "#reframe",
+      "#language-and-expression"
+    ],
+    "themes_after": [
+      "#how-i-learn"
+    ],
+    "anchors": {
+      "#how-i-learn": "Sometimes it's about stepping back and watching the picture from further away. Or learning by experiencing, which is also a different way of learning. So, balancing academic learning for the big picture and concepts, with experience."
+    },
+    "verbatim_before": "I really appreciate connecting more with the other part of AI — not the tooling part, but the mechanism of it.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_032",
+    "entry_ref": "Entry 16",
+    "themes_before": [
+      "#mobile-and-mobility",
+      "#delegation",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#mobile-and-mobility",
+      "#how-i-learn",
+      "#delegation"
+    ],
+    "anchors": {
+      "#mobile-and-mobility": "The idea: this is spare time, I want to stay outside as long as possible, I don't want to do the action of sending right now. But the ability to sharpen my thoughts while in mobility is quite valuable.",
+      "#how-i-learn": "doing it twenty times to a machine is very, very useful. It has way more value than the task itself. It's more about me growing my understanding of what I'm doing.",
+      "#delegation": "And instead of spending a lot of time doing it myself — this is documentation work with very low value for me — the knowledge needs to exist somewhere, but the doing of it isn't where my value is. It's just an implicit contract for the holidays. This was a really smooth task."
+    },
+    "verbatim_before": "For someone like me — a systems thinker who needs to say the same thing twenty times to embody an idea — doing it twenty times to a machine is very, very useful.",
+    "verbatim_after": "for someone like me — a systems thinker who needs to say the same thing twenty times to embody an idea — doing it twenty times to a machine is very, very useful.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_033",
+    "entry_ref": "Entry 16",
+    "themes_before": [
+      "#mobile-and-mobility",
+      "#dependency",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#mobile-and-mobility",
+      "#cost-of-speed"
+    ],
+    "anchors": {
+      "#mobile-and-mobility": "Right now, because it's exciting and frictionless to do work-related tasks in mobility.",
+      "#cost-of-speed": "Does it mean I will be working more? And if so, is it okay? How do I make sure that this counts as working time — as an employee, as a reality?"
+    },
+    "verbatim_before": "Right now, because it's exciting and frictionless to do work-related tasks in mobility. Does it mean I will be working more? And if so, is it okay?",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_034",
+    "entry_ref": "Entry 17",
+    "themes_before": [
+      "#ai-policy-friction",
+      "#builder-identity",
+      "#observation-of-others"
+    ],
+    "themes_after": [
+      "#ai-policy-friction",
+      "#collaborative-transparency"
+    ],
+    "anchors": {
+      "#ai-policy-friction": "But where I feel something is killing the vision: one of the rules being about the fact that if you innovate, if you build a skill, you're responsible for it forever — maintenance, defection, everything. And I mean, this is an innovation killer.",
+      "#collaborative-transparency": "Honestly, if that's the way of working, I'd rather keep all my skills to myself."
+    },
+    "verbatim_before": "Telling people who are just starting to explore AI — as soon as you produce something you want to share with more than one person, you're the one to blame, you need to maintain it, it's adding working time... it's just not worth the effort.",
+    "verbatim_after": "telling people who are just starting to explore AI — and right now most people in the company are not using it much — that as soon as you produce something you want to share with more than one person, you're the one to blame, you need to maintain it, it's adding working time... it's just not worth the effort.",
+    "flags": [
+      "info: verbatim restored, word similarity 0.857"
+    ]
+  },
+  {
+    "beat_id": "beat_035",
+    "entry_ref": "Entry 17",
+    "themes_before": [
+      "#observation-of-others",
+      "#builder-identity",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#value-visibility",
+      "#observation-of-others",
+      "#collaborative-transparency"
+    ],
+    "anchors": {
+      "#value-visibility": "I got some tapping on the back — being seen as legitimate for this. My talk landed in some aspect.",
+      "#observation-of-others": "But it also means no one believes they can explore by themselves. There's this real fear about doing stuff alone or doing it wrong.",
+      "#collaborative-transparency": "So I explained my logic — that I really believe that in a collaborative setup, Notion works better when multiple people are working on the same thing. The transparency is real. You can comment on the rules of every model or conversation base."
+    },
+    "verbatim_before": "I'm starting to see the maturity — or lack of it — around AI among people in different jobs and positions in my company. And I'm very surprised.",
+    "verbatim_after": null,
+    "flags": [
+      "verbatim not an exact substring of transcript; best match in entry has word similarity 0.235 (< 0.8); stored verbatim kept",
+      "best match span: just starting to explore AI — and right now most people in the company are not using it much — that as soon"
+    ]
+  },
+  {
+    "beat_id": "beat_036",
+    "entry_ref": "Entry 17",
+    "themes_before": [
+      "#observation-of-others",
+      "#delegation",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#observation-of-others",
+      "#value-visibility"
+    ],
+    "anchors": {
+      "#observation-of-others": "And she didn't understand the question. She had no clue what she built — she just knew it was somewhere.",
+      "#value-visibility": "I couldn't be offended — I take it as a great compliment."
+    },
+    "verbatim_before": "She basically took my process. I couldn't be offended — I take it as a great compliment.",
+    "verbatim_after": "she basically took my process. I couldn't be offended — I take it as a great compliment.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_037",
+    "entry_ref": "Entry 18",
+    "themes_before": [
+      "#delegation",
+      "#builder-identity",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#governing-agents",
+      "#interest-in-the-work"
+    ],
+    "anchors": {
+      "#governing-agents": "Simple in principle. I started with absolutely no AI input, and now I have a steady agent with dedicated rules and stylistic choices that embed voice, tone, concept, keywords, and SEO.",
+      "#interest-in-the-work": "I'm excited to do that even if it seems like a boring task."
+    },
+    "verbatim_before": "To loop back and start leveraging the investment I've been making in producing these rules and this system. Not just for new pages, but to overall increase the quality of our writing expression.",
+    "verbatim_after": "to loop back and start leveraging the investment I've been making in producing these rules and this system. Not just for new pages, but to overall increase the quality of our writing expression.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_038",
+    "entry_ref": "Entry 18",
+    "themes_before": [
+      "#delegation",
+      "#build-surface-constraints",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#delegation",
+      "#governing-agents"
+    ],
+    "anchors": {
+      "#delegation": "From one page, it was really good at spotting all the missing angles. Especially the alt descriptions — really great.",
+      "#governing-agents": "So I created a setup where I built the review model with AI first — in conversation: what I want to flag, what kind of help I need, if there's no alt description, write it following these rules."
+    },
+    "verbatim_before": "Time invested: maybe forty-five minutes. That will pay off on the long run.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_039",
+    "entry_ref": "Entry 18",
+    "themes_before": [
+      "#builder-identity",
+      "#reframe",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#value-visibility"
+    ],
+    "anchors": {
+      "#value-visibility": "because they need to correlate with value so I can express them in stakeholder meetings. I need to be able to argue about them later."
+    },
+    "verbatim_before": "These experiments need to correlate with value so I can express them in stakeholder meetings. I need to be able to argue about them later.",
+    "verbatim_after": "these experiments more closely — because they need to correlate with value so I can express them in stakeholder meetings. I need to be able to argue about them later.",
+    "flags": [
+      "info: verbatim restored, word similarity 0.909"
+    ]
+  },
+  {
+    "beat_id": "beat_040",
+    "entry_ref": "Entry 19",
+    "themes_before": [
+      "#delegation",
+      "#build-surface-constraints",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#delegation"
+    ],
+    "anchors": {
+      "#delegation": "Claude created the entries for all these new companies in our CMS on Framer, attributing every metadata — importance, what kind of product they're using — and leaving empty fields for now where needed."
+    },
+    "verbatim_before": "This is such manual, annoying work otherwise.",
+    "verbatim_after": "this is such manual, annoying work otherwise.",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000"
+    ]
+  },
+  {
+    "beat_id": "beat_041",
+    "entry_ref": "Entry 19",
+    "themes_before": [
+      "#delegation",
+      "#build-surface-constraints",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#delegation",
+      "#interest-in-the-work"
+    ],
+    "anchors": {
+      "#delegation": "I find it exciting to think about the service the machine can do on my behalf instead of repetitive desk work.",
+      "#interest-in-the-work": "This is exactly the kind of stuff I want to delete from my plate. The design value here is the opposite of this kind of task."
+    },
+    "verbatim_before": "I find it exciting to think about the service the machine can do on my behalf instead of repetitive desk work.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_042",
+    "entry_ref": "Entry 20",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#limit-of-the-self",
+      "#observation-of-others"
+    ],
+    "themes_after": [
+      "#observation-of-others",
+      "#limit-of-the-self"
+    ],
+    "anchors": {
+      "#observation-of-others": "Because the frustration was coming from working on something and giving back instructions in the conversation, trying to correct it over time, again and again. And it was like: oh, that's not really efficient.",
+      "#limit-of-the-self": "And I was like: well, that's because it doesn't have that kind of memory — that's my understanding. Okay. With something not as clear or concrete for me either."
+    },
+    "verbatim_before": "And I guess it's a bit better now. I can't wait to hear from him in a couple of months about his process.",
+    "verbatim_after": "And I guess it's a bit better now.\nI can't wait to hear from him in a couple of months about his process",
+    "flags": [
+      "info: verbatim restored, word similarity 1.000",
+      "info: restored span crosses a paragraph break in the transcript (blocks joined with \\n)"
+    ]
+  },
+  {
+    "beat_id": "beat_043",
+    "entry_ref": "Entry 20",
+    "themes_before": [
+      "#tool-as-mirror",
+      "#language-and-expression"
+    ],
+    "themes_after": [
+      "#how-i-learn"
+    ],
+    "anchors": {
+      "#how-i-learn": "I'm satisfied with this conversation because I've been learning how people learn. And it's also giving me perspective on my own learning curve."
+    },
+    "verbatim_before": "I'm satisfied with this conversation because I've been learning how people learn. And it's also giving me perspective on my own learning curve.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_044",
+    "entry_ref": "Entry 21",
+    "themes_before": [
+      "#limit-of-the-self",
+      "#builder-identity",
+      "#reframe"
+    ],
+    "themes_after": [
+      "#limit-of-the-self"
+    ],
+    "anchors": {
+      "#limit-of-the-self": "and suddenly I realised that the way my skill is built is not optimal. I was like: what? Inside the same source file I have, live, both a mix of competitor analysis, context of my company, mixed information about rating, and then a styling document and brand voice. Way too messy."
+    },
+    "verbatim_before": "I was re-writing this article, and suddenly I realised that the way my skill is built is not optimal. I was like: what? Inside the same source file I have, live, both a mix of competitor analysis, context of my company, mixed information about rating, and then a styling document and brand voice. Way too messy.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_045",
+    "entry_ref": "Entry 21",
+    "themes_before": [
+      "#delegation",
+      "#builder-identity",
+      "#limit-of-the-self"
+    ],
+    "themes_after": [
+      "#governing-agents",
+      "#limit-of-the-self"
+    ],
+    "anchors": {
+      "#governing-agents": "but I was already hitting walls on decisions where AI was making calls, and we weren't really clear on what the rules of our relationship were. Who is doing what.",
+      "#limit-of-the-self": "Because I realised that a lot of elements were embedded into the very loose memory of this conversation, but I hadn't formalised a lot of rules by themselves. The analytic part was quite weak. The input I'd been giving could be ten thousand times better."
+    },
+    "verbatim_before": "I asked: I would like us to analyse the quality of the input I'm feeding you on different dimensions. Express it in numbers, one to five, five being perfection. So we can dialogue on how to improve it.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_046",
+    "entry_ref": "Entry 21",
+    "themes_before": [
+      "#reframe",
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#reframe",
+      "#how-i-learn"
+    ],
+    "anchors": {
+      "#reframe": "So I was having a very marketing approach to watching signals. And today I levelled up to: okay, our competitor says something, but they're also building differently. Two different lanes.",
+      "#how-i-learn": "Very interesting to realise that the practice of writing made me understand I was aiming too low."
+    },
+    "verbatim_before": "I was watching stuff from a digest perspective on a weekly basis, just signalling communication. But what a company is actually building is a different lens. Probably a monthly scan — to get more information on whether they're progressing or regressing. The reality, not only their visible communication.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_047",
+    "entry_ref": "Entry 21",
+    "themes_before": [
+      "#builder-identity",
+      "#delegation",
+      "#tool-as-mirror"
+    ],
+    "themes_after": [
+      "#how-i-learn",
+      "#governing-agents"
+    ],
+    "anchors": {
+      "#how-i-learn": "I've been discovering, just by reflecting on my progress, that I have more I can get out of it.",
+      "#governing-agents": "because stylistic rules are now embedded as hard rules in a document. So I'm forcing AI to actually follow them and not give them up."
+    },
+    "verbatim_before": "The feedback loop I had such a hard time making work in product setups — where timelines are very long — I can see it working here. For this self-carried competitive intelligence digest, every week has provided a tremendous amount of discovery and improved impact.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_048",
+    "entry_ref": "Entry 22",
+    "themes_before": [
+      "#limit-of-the-tool",
+      "#build-surface-constraints"
+    ],
+    "themes_after": [
+      "#limit-of-the-tool",
+      "#limit-of-the-self"
+    ],
+    "anchors": {
+      "#limit-of-the-tool": "That Claude doesn't know about Claude. You're like: okay, the goal of this conversation is to build a skill for you — and you, Claude, don't even know yourself.",
+      "#limit-of-the-self": "And one more confirmation: the less knowledge you have, the more difficult it is to realise deviation."
+    },
+    "verbatim_before": "That Claude doesn't know about Claude. You're like: okay, the goal of this conversation is to build a skill for you — and you, Claude, don't even know yourself. You don't even realise you're Claude. So ridiculous.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_049",
+    "entry_ref": "Entry 22",
+    "themes_before": [
+      "#limit-of-the-self",
+      "#language-and-expression"
+    ],
+    "themes_after": [
+      "#limit-of-the-self",
+      "#language-and-expression"
+    ],
+    "anchors": {
+      "#limit-of-the-self": "And the only thing I realised: I missed the vocabulary.",
+      "#language-and-expression": "I can express myself using the best language I know, but outside of my field it's difficult."
+    },
+    "verbatim_before": "I missed the vocabulary. I can express myself using the best language I know, but outside of my field it's difficult. When I exchange with developers, they have the filter to connect me — they know my position and they help me rephrase to get precision out of the conversation. That's been the case for fifteen years. With Claude, that filter isn't there in the same way.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_050",
+    "entry_ref": "Entry 22",
+    "themes_before": [
+      "#builder-identity",
+      "#delegation"
+    ],
+    "themes_after": [
+      "#builder-identity"
+    ],
+    "anchors": {
+      "#builder-identity": "And I think it's probably one of the first times in my career that I'm producing the raw material, the process, and I will produce at some point a visual representation of it."
+    },
+    "verbatim_before": "this will be my first scheduling task run through Cowork — built from idea to finish using nothing but my logic and my understanding of Claude. It's coming with a GitHub repo, which is very core to what I'm doing.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_051",
+    "entry_ref": "Entry 22",
+    "themes_before": [
+      "#limit-of-the-tool"
+    ],
+    "themes_after": [
+      "#limit-of-the-tool"
+    ],
+    "anchors": {
+      "#limit-of-the-tool": "It was very interesting to see what Claude is able to get back from that. Not very high level of detail — I was surprised by that."
+    },
+    "verbatim_before": "at the end of the project, I did what I usually do with humans — I suggested a round of what went flawless and what went wrong, from both points of view. It was very interesting to see what Claude is able to get back from that. Not very high level of detail — I was surprised by that.",
+    "verbatim_after": null,
+    "flags": []
+  },
+  {
+    "beat_id": "beat_052",
+    "entry_ref": "Entry 22",
+    "themes_before": [
+      "#builder-identity"
+    ],
+    "themes_after": [
+      "#builder-identity",
+      "#collaborative-transparency"
+    ],
+    "anchors": {
+      "#builder-identity": "And maybe this is a new entry point into the developer community rather than just the designer one",
+      "#collaborative-transparency": "I really want to be able to share, ask for feedback, and go further around what I'm doing in general."
+    },
+    "verbatim_before": "maybe this is a new entry point into the developer community rather than just the designer one — where people share for the sake of good rather than personal branding everything they do. I realise I'm really happy about that part.",
+    "verbatim_after": null,
+    "flags": []
+  }
+]
