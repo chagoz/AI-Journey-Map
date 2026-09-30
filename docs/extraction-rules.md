@@ -108,10 +108,10 @@ A beat closes when the narrator reaches a response to that breach (reframe, inte
 Auto-incremented from the last recorded beat_id in the corpus. Format: beat_001, beat_002. Never reuse.
 
 ### schema_version
-Always `v3` until this document is updated.
+The version in the title of this document (`docs/extraction-rules.md`) at the time of extraction. Format: v4.
 
 ### entry_ref
-Entry number as it appears in Blabbing about AI. Format: Entry 01, Entry 07.
+The row's `Entry` title in the Voice notes database. Format: Entry 01, Entry 07.
 
 ### date
 YYYY-MM-DD from the entry header.
@@ -295,7 +295,8 @@ Output a single valid JSON array containing all new beats. Nothing before or aft
 [
   {
     "beat_id": "beat_042",
-    "schema_version": "v3",
+    "schema_version": "v4",
+    "taxonomy_version": "v3",
     "entry_ref": "Entry 20",
     "date": "2026-06-26",
     "emotion": "cautious excitement",
@@ -386,4 +387,4 @@ Hedging language is data. *"I think", "maybe", "I'm not sure"* signal uncertaint
 
 ---
 
-*Created by Charline x Claude — June 25, 2026 — Updated to v3: June 26, 2026 · Updated to v4: September 25, 2026*
+*Created by Charline x Claude — June 25, 2026 — Updated to v3: June 26, 2026 · Updated to v4: September 25, 2026 · Clarified: September 30, 2026*
