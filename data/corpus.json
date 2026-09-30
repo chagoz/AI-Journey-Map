@@ -2346,5 +2346,94 @@
       "#trust-in-the-tool",
       "#collaborative-transparency"
     ]
+  },
+  {
+    "beat_id": "beat_105",
+    "schema_version": "v4",
+    "taxonomy_version": "v3",
+    "entry_ref": "Entry 40",
+    "date": "2026-09-29",
+    "emotion": "skeptical interest",
+    "emotion_valence": 0.1,
+    "emotion_arousal": 0.2,
+    "pain_gain": "tension",
+    "activity_type": "observing others",
+    "action": "Had a conversation at the office with people excited about producing content with AI.",
+    "verbatim": "And, and it's interesting, because to me, it's a, a big romanticization of, of creative job.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "other",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#observation-of-others"
+    ]
+  },
+  {
+    "beat_id": "beat_106",
+    "schema_version": "v4",
+    "taxonomy_version": "v3",
+    "entry_ref": "Entry 40",
+    "date": "2026-09-29",
+    "emotion": "wary unease",
+    "emotion_valence": -0.4,
+    "emotion_arousal": 0.2,
+    "pain_gain": "tension",
+    "activity_type": "reflecting",
+    "action": "Witnessed a need for hyper productivity and hyper visual finishing in AI touch points with others.",
+    "verbatim": "And And I'm wondering also if it's where the full market is drifting, because this productivity for the sake of productivity and like efficiency again, and to me feel like a trap",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self+other",
+    "open_question": "Is this where the full market is drifting?",
+    "phase": null,
+    "themes": [
+      "#cost-of-speed",
+      "#value-visibility"
+    ]
+  },
+  {
+    "beat_id": "beat_107",
+    "schema_version": "v4",
+    "taxonomy_version": "v3",
+    "entry_ref": "Entry 40",
+    "date": "2026-09-29",
+    "emotion": "mild appreciation",
+    "emotion_valence": 0.4,
+    "emotion_arousal": 0.1,
+    "pain_gain": "gain",
+    "activity_type": "observing others",
+    "action": "Talked with colleagues, including a customer success manager at lunch, about the AI hype.",
+    "verbatim": "But what's kind of cool, I think, is the, that on site discussion, I also talked with some colleagues and they were like, yeah, well, it's a funny hype, but makes no sense to me.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "other",
+    "open_question": null,
+    "phase": null,
+    "themes": [
+      "#observation-of-others"
+    ]
+  },
+  {
+    "beat_id": "beat_108",
+    "schema_version": "v4",
+    "taxonomy_version": "v3",
+    "entry_ref": "Entry 40",
+    "date": "2026-09-29",
+    "emotion": "mild weariness",
+    "emotion_valence": -0.3,
+    "emotion_arousal": -0.3,
+    "pain_gain": "tension",
+    "activity_type": "reflecting",
+    "action": "Heard the word AI used in every conversation as a justification, a leverage and an endpoint.",
+    "verbatim": "But in the meanwhile, I'm a bit, I'm a bit exhausted to hear the world AI in every single conversation as a justification, as a leverage, as an endpoint.",
+    "job_to_be_done": null,
+    "complexity": 1,
+    "subject": "self+other",
+    "open_question": "Who am I in this context?",
+    "phase": null,
+    "themes": [
+      "#builder-identity"
+    ]
   }
 ]
